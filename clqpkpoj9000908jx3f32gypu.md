@@ -1,7 +1,7 @@
 ---
-title: "Use Google Sheets as Database: A Step-by-Step Guide"
-seoTitle: "Build a Basic Web Form with Google Sheets: A Step-by-Step Guide"
-seoDescription: "Now you can use Google Sheets as a basic database to make your project work and prototype your project using google's inbuilt free api `Apps Script`...."
+title: "How to Use Google Sheets as a Database: A Complete Guide"
+seoTitle: "Guide: Using Google Sheets as a Database"
+seoDescription: "Learn to use Google Sheets as a basic database for projects with detailed step-by-step guidance and coding tips"
 datePublished: Thu Dec 28 2023 19:03:51 GMT+0000 (Coordinated Universal Time)
 cuid: clqpkpoj9000908jx3f32gypu
 slug: google-sheet-db
