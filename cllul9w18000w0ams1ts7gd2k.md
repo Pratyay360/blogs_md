@@ -1,7 +1,7 @@
 ---
-title: "How to use 'upiqrcode'  package."
-seoTitle: "Utilizing the 'upiqrcode' Package for UPI QR Code Generation"
-seoDescription: "An short manual on how to use upiqrcode, a npm package that generates UPI QR codes compliant with NPCI, facilitating seamless payments via UPI apps."
+title: "A Beginner's Guide to Using the 'UpiQRCode' Package"
+seoTitle: "Learn 'UpiQRCode' Package Basics"
+seoDescription: "Learn how to generate UPI QR codes with the 'upiqrcode' npm package. Follow this beginner's guide for seamless UPI payment links"
 datePublished: Mon Aug 28 2023 07:59:53 GMT+0000 (Coordinated Universal Time)
 cuid: cllul9w18000w0ams1ts7gd2k
 slug: use-upiqrcode
