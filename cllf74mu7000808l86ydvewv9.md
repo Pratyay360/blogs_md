@@ -1,7 +1,7 @@
 ---
-title: "Integrating Hash Node Blogs into Your Next Js/React Js App: A Step-by-Step Guide"
-seoTitle: "Hashnode Blogs in Next.js/React: Step-by-Step"
-seoDescription: "Embed Hashnode articles in React/Next.js effortlessly for boosted traffic and engagement. Enhance UX, promote content with schema and GraphQL."
+title: "Guide to Integrating Hash Node Blogs in Your Next.js and React.js App"
+seoTitle: "Integrate Hash Node Blogs into Next.js App"
+seoDescription: "Learn to integrate Hash Node blogs into your Next.js and React.js apps for increased traffic, enhanced user experience, and promotion of your work"
 datePublished: Thu Aug 17 2023 13:27:21 GMT+0000 (Coordinated Universal Time)
 cuid: cllf74mu7000808l86ydvewv9
 slug: hashnode-api-1
