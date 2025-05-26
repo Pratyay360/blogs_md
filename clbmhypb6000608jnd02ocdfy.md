@@ -1,7 +1,7 @@
 ---
-title: "How to setup self hosted free vpn with github education pack"
-seoTitle: "How to setup self hosted free vpn with github education pack"
-seoDescription: "Build a private VPN using VPS or home server, bypass CGNAT. Setup OpenVPN, own your data, and ensure online privacy. Get $200 DigitalOcean coupon."
+title: "Step-by-Step Guide to Setting Up a Free Self-Hosted VPN Using GitHub Education Pack"
+seoTitle: "Free Self-Hosted VPN Setup with GitHub Tools"
+seoDescription: "Learn how to set up a free self-hosted VPN using GitHub Education Pack with step-by-step instructions for privacy and security"
 datePublished: Tue Dec 13 2022 17:28:00 GMT+0000 (Coordinated Universal Time)
 cuid: clbmhypb6000608jnd02ocdfy
 slug: selfhosting-vpn
