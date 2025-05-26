@@ -1,7 +1,7 @@
 ---
 title: "How to Build a PWA Using Next.js and Million.js"
 seoTitle: "Build PWAs in Next.js Using Million.js"
-seoDescription: "Guide on transforming your Next.js app into a Progressive Web App using Million.js for enhanced performance and native app-like experiences"
+seoDescription: "Guide on transforming your Next.js + Million.js app into a Progressive Web App for enhanced performance and native app-like experiences"
 datePublished: Thu Aug 17 2023 09:46:14 GMT+0000 (Coordinated Universal Time)
 cuid: cllez8agg000s09mq8vxb9t7f
 slug: pwa
