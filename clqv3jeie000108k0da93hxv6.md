@@ -1,7 +1,7 @@
 ---
-title: "Integrating Hashnode API 2.0: Fetching and Displaying Blogs on Your Website"
-seoTitle: "Integrating Hashnode API 2.0"
-seoDescription: "Level up your online presence: Seamlessly integrate your Hashnode blog into your Next.js portfolio with this step-by-step guide."
+title: "A Guide to Using Hashnode API 2.0 for Showcasing Blogs on Your Website"
+seoTitle: "Showcase Blogs with Hashnode API 2.0"
+seoDescription: "Learn to integrate Hashnode API 2.0 with your website for showcasing blogs using Next.js with GraphQL queries"
 datePublished: Mon Jan 01 2024 15:49:42 GMT+0000 (Coordinated Universal Time)
 cuid: clqv3jeie000108k0da93hxv6
 slug: hashnode-api
