@@ -68,34 +68,6 @@ content:
         update: "Update page {title}"
         delete: "Delete page {title}"
 
-  - name: devlog
-    type: collection
-    label: Devlog
-    path: content/devlog
-    filename: "{primary}.md"
-    fields:
-      - name: title
-        type: text
-        required: true
-        label: Title
-      - name: date
-        type: datetime
-        required: true
-        label: Date
-      - name: body
-        type: textarea
-        label: Content
-    view:
-      primary: title
-      fields: [title, date]
-      sort: [date]
-      layout: list
-    commit:
-      templates:
-        create: "Add devlog {title}"
-        update: "Update devlog {title}"
-        delete: "Delete devlog {title}"
-
 media:
   - name: images
     label: Images
