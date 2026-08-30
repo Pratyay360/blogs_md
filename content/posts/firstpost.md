@@ -1,24 +1,24 @@
 ---
 title: Hello World
 description: Hello World; my first post
-date: '2026-08-22T21:13'
-draft: true
+date: '2026-08-22T21:13:00Z'
+draft: false
 tags:
   - blog
   - first post
 ---
-This is my small corner in the internet will be sharing ideas and thoughts … maybe no one will be reading this but who cares. If only me and google spider reads this that’s perfectly fine. I will be writing stuff here sharing my views, opinions, and experience i gathered over the years.
+## This is my small corner in the internet will be sharing ideas and thoughts … maybe no one will be reading this but who cares. If only me and google spider reads this that’s perfectly fine. I will be writing stuff here sharing my views, opinions, and experience i gathered over the years.
 
 From the very early age computers, electronics and internet excited me a lot. 
 
-Btw I am a Linux user for the past 5 6 years, so I can claim that I have learned a little bit about Unix and Linux, and I think I am self entitled to share some of my experiences here, 
+Btw I am a Linux user for the past 5 6 years, so I can claim that I have learned a little bit about UNIX and Linux, and I think I am self entitled to share some of my experiences here, 
 
-Btw, now days i boot an atomic/immutable bootc based distro (which is heavily customized by me). Thanks to extensive documentation by [blue build](https://blue-build.org) and [osbuild.org.](https://osbuild.org/) It’s a derivative of Kinoite. Also you can see my [recipe on GitHub.](https://github.com/Pratyay360/blueee-os) 
+Btw, now days i boot an atomic/immutable bootc based distro (which is heavily customized by me)
 
-Most of the stuff I do is just to explore or to scratch my anxious mind. Not afraid of trying anything new or unknown I am still equally open and curious about learning new 
+Most of the stuff I do is just to explore. Not afraid of trying anything new or unknown I am still equally open and curious about learning new 
 
 By the way, I had a childhood dream of becoming a lawyer because I tend to defend any side in any debate ~~though that usually stays within my social bubble.~~ However, with age I have realized that I am too introverted for that profession.
 
 I have got some hot takes too, but won’t be sharing everything in one post.
 
-So, see you later dear anon,
+**So, see you later dear anon,**
