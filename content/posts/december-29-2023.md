@@ -1,6 +1,6 @@
 ---
 title:  How to Use Google Sheets as a Database
-description:  How to Use Google Sheets as a Database: A Complete Guide (hashnode archive)
+description:  How to Use Google Sheets as a Database (hashnode archive)
 date: '2023-12-29T14:55:00Z'
 draft: false
 ---
