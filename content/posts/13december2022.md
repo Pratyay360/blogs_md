@@ -13,13 +13,13 @@ With the GitHub education pack you are getting a trial version of [AWS](http://a
 
 steps of setting up a digital ocean for your privacy and an extra layer of security I suggest you set up a VPS with an ssh key directly don't set it up with a password as hackers can take over your VPS by brute-forcing it.
 
-```plaintext
+```text
 ssh-keygen -t rsa
 ```
 
 Type this command in your terminal to generate a public/private rsa key pair.
 
-```plaintext
+```text
 cat .ssh/id_rsa.pub
 ```
 
@@ -49,13 +49,13 @@ Now we are all done and create your customised VPS by clicking here
 
 Now you have to wait for some minutes to let your VPS provider here digital ocean create a VPS for you after everything done, go and log into your VPS with ssh like this
 
-```plaintext
+```text
 ssh root@<ipv4 address>
 ```
 
 you will automatically get some prompt there create an OpenVPN user from there and set up a password for it after everything is done go to your browser and search
 
-```plaintext
+```text
 <ipv4 address>/admin
 ```
 
@@ -63,7 +63,7 @@ you will automatically get some prompt there create an OpenVPN user from there a
 
 and log in there and configure your VPN according to you now log out from there and open your ipv4 address from there
 
-```plaintext
+```text
 <ipv4 address>
 ```
 

@@ -5,7 +5,7 @@ date: '2024-12-16T14:55:00Z'
 draft: false
 ---
 
-## Beginning story
+# Beginning story
 
 It was during covid Lockdown my school was off and I was binge watching some YouTube videos on my windows desktop sitting and suddenly I had encountered with a video about Linux and riced ui stuff I was very much amused about how good looking, minimalistic that was then I decided to switch the os of my desktop and was little bit scared about my ability to use Linux stuff that’s why i have downloaded a Ubuntu Iso as ubuntu comes 1st when searching for something about Linux and I installed virtual box and tried it out by following some youtube tutorials it was good and most of the software I used to use were Pirated Proprietary ones like photoshop, microsoft office etc. Also being good with terminal was important so that if I messed something I am capable of repairing it with some google search and some youtube videos. So I had installed ubuntu wsl on my windows machine and started learning little commands used in the unix world. Tbh, I loved spending time on terminal and Vs code at that time like crazy. I was just coding learning new stuff from youtube and sitting in front of the monitor all day after using Wsl for 1-1.5 months and using Ubuntu on Virtual Box my love for linux just grew surprisingly. My desktop at home used to have less ram so virtual Box experience was not that good for me.
 
@@ -37,7 +37,7 @@ Have watched multiple movies, web series during lock down and I got very much mo
 
 (visual representation of kali linux desktop)
 
-# Current Os
+## Current Os
 
 Have purchased a powerful hp laptop with good processor and I had installed Endeavour os on it. The laptop was working well but after kernel v 5.8 bluetooth audio used to stutter a lot and wifi 5 ghz was not stable on my laptop may be due to some driver related issue so I switched my distro once again to the distro which creator of linux Linux Torvalds himself uses Fedora. After years of using Arch based distros i realized that they were not that stable for using them on the primary machine.
 
