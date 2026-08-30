@@ -1,10 +1,8 @@
 ---
-id: Xp1Xeg-Rjp8
 title: my Linux journey so far
 description: my Linux journey so far (hashnode archive)
 date: '2024-12-16T14:55:00Z'
 draft: false
-created: 2026-08-30T17:22:22+00:00
 ---
 
 ## Beginning story

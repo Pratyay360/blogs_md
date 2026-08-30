@@ -1,5 +1,4 @@
 ---
-id: 3jMQqYMrEwc
 title: Hello World
 description: Hello World; my first post
 date: '2026-08-22T21:13:00Z'

@@ -1,5 +1,4 @@
 ---
-id: qe68Xl24pZU
 title: Step-by-Step Guide to Setting Up a Free Self-Hosted VPN Using GitHub Education Pack
 description: Step-by-Step Guide to Setting Up a Free Self-Hosted VPN Using GitHub Education Pack (hashnode archive)
 date: "2022-12-13"
