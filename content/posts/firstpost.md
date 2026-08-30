@@ -7,7 +7,7 @@ tags:
   - blog
   - first post
 ---
-## This is my small corner in the internet will be sharing ideas and thoughts … maybe no one will be reading this but who cares. If only me and google spider reads this that’s perfectly fine. I will be writing stuff here sharing my views, opinions, and experience i gathered over the years.
+This is my small corner in the internet will be sharing ideas and thoughts … maybe no one will be reading this but who cares. If only me and google spider reads this that’s perfectly fine. I will be writing stuff here sharing my views, opinions, and experience i gathered over the years.
 
 From the very early age computers, electronics and internet excited me a lot. 
 
