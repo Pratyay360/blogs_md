@@ -1,15 +1,17 @@
 ---
+id: Xp1Xeg-Rjp8
 title: my Linux journey so far
 description: my Linux journey so far (hashnode archive)
 date: '2024-12-16T14:55:00Z'
 draft: false
+created: 2026-08-30T17:22:22+00:00
 ---
 
-# Beginning story
+## Beginning story
 
 It was during covid Lockdown my school was off and I was binge watching some YouTube videos on my windows desktop sitting and suddenly I had encountered with a video about Linux and riced ui stuff I was very much amused about how good looking, minimalistic that was then I decided to switch the os of my desktop and was little bit scared about my ability to use Linux stuff that’s why i have downloaded a Ubuntu Iso as ubuntu comes 1st when searching for something about Linux and I installed virtual box and tried it out by following some youtube tutorials it was good and most of the software I used to use were Pirated Proprietary ones like photoshop, microsoft office etc. Also being good with terminal was important so that if I messed something I am capable of repairing it with some google search and some youtube videos. So I had installed ubuntu wsl on my windows machine and started learning little commands used in the unix world. Tbh, I loved spending time on terminal and Vs code at that time like crazy. I was just coding learning new stuff from youtube and sitting in front of the monitor all day after using Wsl for 1-1.5 months and using Ubuntu on Virtual Box my love for linux just grew surprisingly. My desktop at home used to have less ram so virtual Box experience was not that good for me.
 
-![Windows Subsystem for Linux - Wikipedia](https://upload.wikimedia.org/wikipedia/commons/2/27/Ubuntu_on_Windows_10_-_bash.png align="center")
+![Windows Subsystem for Linux - Wikipedia](https://upload.wikimedia.org/wikipedia/commons/2/27/Ubuntu_on_Windows_10_-_bash.png)
 
 (This is a visual representation of Wsl Obv copied from internet not mine as i don’t use windows any more)
 
@@ -17,7 +19,7 @@ It was during covid Lockdown my school was off and I was binge watching some You
 
 So, after trying linux for 1-1.5 months on my computer(wsl) and thanks to low ram my experience with Virtualbox was not that good I had decided to install linux along side windows (dual boot). I was noob at that time at doing stuffs, installing a simple operating system was a trouble some job for me I deleted one partition from windows and installed ubuntu in that space it was not installed in the ssd even so I used to manually switch os from the bios. Even being installed on the hdd the ubuntu version was faster compared to the windows 10, I started small tinkering and exploring linux at that time that I was spending like 2/3rd of my time on linux and was booting on windows just to play some games. Once I was fully convinced about my linux skills I installed ubuntu permanently on the ssd part and also formatted my hdd drive from NTFS to ext4. Now I was officially a Linux user.
 
-![Ubuntu Desktop](https://res.cloudinary.com/canonical/image/fetch/f_auto,q_auto,fl_sanitize,c_fill,w_3840,h_2160/https://ubuntu.com/wp-content/uploads/d944/yaru-screenshot-large.jpg align="left")
+![Ubuntu Desktop](https://res.cloudinary.com/canonical/image/fetch/f_auto,q_auto,fl_sanitize,c_fill,w_3840,h_2160/https://ubuntu.com/wp-content/uploads/d944/yaru-screenshot-large.jpg )
 
 (Representation of ubuntu desktop)
 
@@ -33,7 +35,7 @@ I personally felt some apps broke and my os broke. It was due to manjaro holds a
 
 Have watched multiple movies, web series during lock down and I got very much motivated by Robot web series to explore cyber security. I have watched videos of hackersploit on youtube and explored my cyber security journey but most of the videos were based on concepts direct practical videos were not that much available on youtube so I tried udemy and telegram to get some videos on the topic I used my desktop to install Kali Linux and parrot Os on virtual box have also tried wifi password cracking, exploiting some old versions of wordpress etc.
 
-![Kali Linux | Penetration Testing and Ethical Hacking Linux ...](https://www.kali.org/images/kali-desktop-gnome.jpg align="left")
+![Kali Linux | Penetration Testing and Ethical Hacking Linux ...](https://www.kali.org/images/kali-desktop-gnome.jpg)
 
 (visual representation of kali linux desktop)
 
@@ -41,52 +43,59 @@ Have watched multiple movies, web series during lock down and I got very much mo
 
 Have purchased a powerful hp laptop with good processor and I had installed Endeavour os on it. The laptop was working well but after kernel v 5.8 bluetooth audio used to stutter a lot and wifi 5 ghz was not stable on my laptop may be due to some driver related issue so I switched my distro once again to the distro which creator of linux Linux Torvalds himself uses Fedora. After years of using Arch based distros i realized that they were not that stable for using them on the primary machine.
 
-I personally boot Kde plasma flavour of fedora linux it’s been 6 months and it’s running fine for me rolling release and stable flatpack updated on top of it are good. Now, I don’t distrohop any more I have found my sweet spot.
+I personally boot Kde plasma flavour of fedora linux it's been 6 months and it's running fine for me rolling release and stable flatpack updated on top of it are good. Now, I don't distrohop any more I have found my sweet spot.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1734346269192/a55b5cc6-2c0c-4204-9b61-463f54161f71.png align="center")
+![fastfetch](https://cdn.hashnode.com/res/hashnode/image/upload/v1734346269192/a55b5cc6-2c0c-4204-9b61-463f54161f71.png)
 
 (Fast Fetch of my personal laptop)
 
 ### **Freedom**
 
-One of the biggest reasons I fell in love with Linux is the sense of **freedom** it offers. Unlike proprietary operating systems like Windows or macOS, Linux doesn’t limit you to a particular way of doing things. You’re free to:
+One of the biggest reasons I fell in love with Linux is the sense of **freedom** it offers.
+Unlike proprietary operating systems like Windows or macOS, Linux doesn’t limit you to a particular way of doing things. You’re free to:
 
-*   Choose from hundreds of distributions that suit your needs, whether it’s a beginner-friendly distro like Ubuntu or a cutting-edge rolling release like Arch Linux.
-    
-*   Customize your system to work the way you want, from changing the desktop environment to tweaking even the smallest settings.
-    
-*   Use your computer without worrying about invasive tracking or forced updates.  
+* Choose from hundreds of distributions that suit your needs, whether it's a beginner-friendly distro like Ubuntu or a cutting-edge rolling release like Arch Linux.
+
+* Customize your system to work the way you want, from changing the desktop environment to tweaking even the smallest settings.
+
+* Use your computer without worrying about invasive tracking or forced updates.  
     This freedom extends to how you use your hardware as well. Linux runs smoothly even on older machines, letting you breathe new life into aging systems. For someone like me, who loves tinkering and optimizing, this level of control felt liberating.
-    
 
 ### **Customization**
 
-The **customization** capabilities of Linux are what initially drew me in—and they’re what kept me hooked. With Linux, you’re not stuck with a standard, unchangeable interface. Instead, you can:
+The **customization** capabilities of Linux are what initially drew me in—and they’re what kept me hooked.
+With Linux, you’re not stuck with a standard, unchangeable interface. Instead, you can:
 
-*   Switch between desktop environments like GNOME, KDE Plasma, or XFCE, depending on your preferences.
-    
-*   "Rice" your desktop to create stunning and minimalistic designs, tailoring everything from the color schemes to the window manager.
-    
-*   Modify the terminal to look and behave exactly how you want, using themes, plugins, and tools like Zsh or Oh My Zsh.  
+* Switch between desktop environments like GNOME, KDE Plasma, or XFCE, depending on your preferences.
+
+* "Rice" your desktop to create stunning and minimalistic designs, tailoring everything from the color schemes to the window manager.
+
+* Modify the terminal to look and behave exactly how you want, using themes, plugins, and tools like Zsh or Oh My Zsh.  
     For me, experimenting with different configurations felt like a creative outlet. The ability to design a workspace that was both visually pleasing and incredibly functional was empowering. Unlike closed systems, Linux encouraged me to make my computer an extension of my personality.
-    
 
 ### **Open-Source Philosophy**
 
 At the heart of Linux is its **open-source philosophy**, which fundamentally changed the way I view technology. Open-source software isn’t just about using free tools—it’s about being part of a community where collaboration and transparency take precedence.
 
-*   With Linux, I realized I wasn’t just a passive consumer; I was part of a larger movement that values sharing knowledge and empowering others.
-    
-*   I could access the source code of the operating system and understand how it worked. While I wasn’t skilled enough to contribute back then, knowing that I could learn from it or even modify it if needed was inspiring.
-    
-*   Most of the apps I used were open-source, from LibreOffice to GIMP, which helped me move away from pirated proprietary software.  
-    The open-source philosophy also made me appreciate how Linux thrives because of its community. Whether it was asking for help on forums, following FOSS advocates on YouTube, or contributing bug reports, I felt like I was part of something bigger.
-    
+* With Linux, I realized I wasn't just a passive consumer; I was part of a larger movement that values sharing knowledge and empowering others.
 
-### **Conclusion**
+* I could access the source code of the operating system and understand how it worked.
+* While I wasn't skilled enough to contribute back then, knowing that I could learn from it or even modify it if needed was inspiring.
 
-Switching to Linux taught me more than just technical skills—it gave me a new perspective on **freedom, creativity, and community**. The ability to customize my system, use free and open-source software, and break away from proprietary restrictions made my journey rewarding. Linux isn’t just an operating system; it’s a way to embrace technology with curiosity and empowerment.
+* Most of the apps I used were open-source, from LibreOffice to GIMP, which helped
+ me move away from pirated proprietary software. The open-source philosophy also
+made me appreciate how Linux thrives because of its community. Whether
+it was asking for help on forums, following FOSS advocates on YouTube, or contributing bug reports, I felt like I was part of something bigger.
+
+## **Conclusion**
+
+Switching to Linux taught me more than just technical skills—it gave me a new perspective
+on **freedom, creativity, and community**. The ability to customize my system,
+use free and open-source software, and break away from proprietary restrictions
+made my journey rewarding. Linux isn't just an operating system; it's a way to
+embrace technology with curiosity and empowerment.
 
 ## Continuation
 
-Using linux is like a journey and the path is full of learning. I will be updating this post as how my workflow changes.
+Using linux is like a journey and the path is full of learning.
+I will be updating this post as how my workflow changes.

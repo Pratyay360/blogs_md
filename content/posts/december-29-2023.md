@@ -1,35 +1,41 @@
 ---
+id: 7muzDtzkPxY
 title:  How to Use Google Sheets as a Database
 description:  How to Use Google Sheets as a Database (hashnode archive)
 date: '2023-12-29T14:55:00Z'
 draft: false
+created: 2026-08-30T17:22:22+00:00
 ---
 
 
 
-# How to Use Google Sheets as a Database: A Complete Guide
+## How to Use Google Sheets as a Database: A Complete Guide
 
 ## Introduction :-
 
-Now you can use Google Sheets as a basic database to make your project work and prototype your project using google's inbuilt free api \`Apps Script\`.
+Now you can use Google Sheets as a basic database to make your project work and
+prototype your project using google's inbuilt free api `Apps Script`.
 
-Google's spreadsheet can store text, number etc. and you can receive data in json format and use in your project in this blog I am going to show you how to store collected from customized form. One can follow this code with moderate level of coding knowledge in Javascript / React js.
+Google's spreadsheet can store text, number etc. and you can receive data in
+json format and use in your project in this blog I am going to show you how to
+store collected from customized form. One can follow this code with moderate level
+of coding knowledge in Javascript / React js.
 
-## 1st step to start the project is to create a spreadsheet in Google Sheet.
+## 1st step to start the project is to create a spreadsheet in Google Sheet
 
-![sheet home page](https://cdn.hashnode.com/res/hashnode/image/upload/v1703787617966/09e8bb0a-a45e-4261-bf24-12222b6cc0b2.png align="center")
+![sheet home page](https://cdn.hashnode.com/res/hashnode/image/upload/v1703787617966/09e8bb0a-a45e-4261-bf24-12222b6cc0b2.png)
 
-click on the `+` icon and rename the spreadsheet name.
+Click on the `+` icon and rename the spreadsheet name.
 
-![sheet title](https://cdn.hashnode.com/res/hashnode/image/upload/v1703787737106/6104c007-db83-4c1e-b2dd-3dbc78fc89d1.png align="center")
+![sheet title](https://cdn.hashnode.com/res/hashnode/image/upload/v1703787737106/6104c007-db83-4c1e-b2dd-3dbc78fc89d1.png)
 
 here I am naming the sheet as `form data`
 
-![column name](https://cdn.hashnode.com/res/hashnode/image/upload/v1703787784897/59028129-8462-4a6e-b584-38a44bd35a9a.png align="center")
+![column name](https://cdn.hashnode.com/res/hashnode/image/upload/v1703787784897/59028129-8462-4a6e-b584-38a44bd35a9a.png)
 
 I am creating 3 columns `Name` , `Email` and `Message`
 
-![sheet_id](https://cdn.hashnode.com/res/hashnode/image/upload/v1703787893999/b51df5a2-263f-4c86-abf9-ade9946e0163.png align="center")
+![sheet_id](https://cdn.hashnode.com/res/hashnode/image/upload/v1703787893999/b51df5a2-263f-4c86-abf9-ade9946e0163.png)
 
 I have given my sheet name as `data`
 
@@ -37,7 +43,7 @@ Now to generate a restful api for the given sheet we have to click on Extensions
 
 If you are following me step by step then your sheet should be like
 
-![spread sheet](https://cdn.hashnode.com/res/hashnode/image/upload/v1703788242840/8a4b4aee-e6e8-4838-9d8d-f09da611a82d.png align="center")
+![spread sheet](https://cdn.hashnode.com/res/hashnode/image/upload/v1703788242840/8a4b4aee-e6e8-4838-9d8d-f09da611a82d.png)
 
 After opening **Apps Script** you should change the code with
 
@@ -55,13 +61,13 @@ function doPost(e){
 
 Now click on deploy
 
-![apps script page](https://cdn.hashnode.com/res/hashnode/image/upload/v1703788395644/95fb98d0-01b9-4c7a-a167-88a548939f71.png align="center")
+![apps script page](https://cdn.hashnode.com/res/hashnode/image/upload/v1703788395644/95fb98d0-01b9-4c7a-a167-88a548939f71.png)
 
 New Deployment -&gt; Select Type (Web App) -&gt; Then click Deploy
 
 Make Sure to change access to anyone.
 
-![deploy page](https://cdn.hashnode.com/res/hashnode/image/upload/v1703788564454/28688698-170f-4296-8a95-da97e4fe89cf.png align="center")
+![deploy page](https://cdn.hashnode.com/res/hashnode/image/upload/v1703788564454/28688698-170f-4296-8a95-da97e4fe89cf.png)
 
 **Don't forget to copy the web app link We will be using it as the**`api`**Now open your html project and add use the following syntax**
 
@@ -125,7 +131,7 @@ export default function Home() {
                                 <input type="email" name="Email" id="email" placeholder="example@email.com" className="border rounded-lg py-3 px-3 mt-2 bg-black border-indigo-600 placeholder-white-500 text-white" />
                                 <label className="font-bold text-lg text-white " >Message</label>
                                 <input type="text" name="Message" placeholder="Enter Your Message" className="border rounded-lg py-3 px-3 mt-2 bg-black border-indigo-600 placeholder-white-500 text-white" />
-                                <button className="border border-indigo-600 hover:bg-indigo-600 bg-black text-white rounded-lg py-3 font-semibold px-2" type="submit">Send Message</button>
+                                <button className="border border-indigo-600 hover:bg-indigo-600 bg-black text-white rounded-lg py-3 )font-semibold px-2" type="submit">Send Message</button>
                             </form>) :
                             ( 
                                 <p>Form not working properly Please report to pratyaymustafi@outlook.com</p>
@@ -141,50 +147,38 @@ export default function Home() {
 }
 ```
 
-### Here I am using next.js you can use the same code with react.
+### Here I am using next.js you can use the same code with react
 
 Here is the output of the code
 
-![message me page blank](https://cdn.hashnode.com/res/hashnode/image/upload/v1703788879735/dde905f9-ec9b-4a55-9ee7-4e58c23a1de9.png align="center")
+![message me page blank](https://cdn.hashnode.com/res/hashnode/image/upload/v1703788879735/dde905f9-ec9b-4a55-9ee7-4e58c23a1de9.png)
 
-Make sure to send me some messages through my website [link](https://pratyay.vercel.app/message_me).
+Here I am sending a dummy message just as an example
 
-Here I am sending a dummy message just as a example
+![message me page filled](https://cdn.hashnode.com/res/hashnode/image/upload/v1703789035408/6884dd91-c5c8-4e5f-a9a7-07bf23c007bf.png)
 
-![message me page filled](https://cdn.hashnode.com/res/hashnode/image/upload/v1703789035408/6884dd91-c5c8-4e5f-a9a7-07bf23c007bf.png align="center")
+As you can see the in the form is inserted into the spread sheet.
 
-As you can see the in the form is inserted into the Spread sheet.
+![recieved response](https://cdn.hashnode.com/res/hashnode/image/upload/v1703789052417/37c78462-af4d-48c7-8f71-2ef445f49002.png)
 
-![recieved response](https://cdn.hashnode.com/res/hashnode/image/upload/v1703789052417/37c78462-af4d-48c7-8f71-2ef445f49002.png align="center")
-
-## Cons of using spreadsheet as database:
+## Cons of using spreadsheet as database
 
 * Increased Dependency on google's api
-    
+
 * Less Scalability
-    
+
 * Not so professional as it's no so safe to store users data in just a spreadsheet.
-    
 
 ## Pros
 
 * Easy prototyping
-    
+
 * Can be used to make customized survey form
-    
+
 * Cost Effective
-    
 
-You can visit my [portfolio page](https://pratyay.vercel.app/). and [github repo](https://github.com/Pratyay360/pratyay-profile).
+<!--You can visit my [portfolio page](). and [github repo](https://github.com/Pratyay360/pratyay-profile).-->
 
-Have used codes of [Anatu Tech](https://www.youtube.com/watch?v=ZA6j2PhXSUg) partly in this project.
+Have used codes of [Anatu Tech](https://www.youtube.com/watch?v=ZA6j2PhXSUg) partly here.
 
-Happy coding :)
-
----
-
-# Want to support my work
-
-[![](https://cdn.hashnode.com/res/hashnode/image/upload/v1708619740041/c90de892-ed81-417e-8c37-dd5d5c937efd.png align="left")](https://pratyayupi.pages.dev/)
-
-[![](https://cdn.hashnode.com/res/hashnode/image/upload/v1708619737273/eb237332-02d4-4eb8-a8dd-6c100a2b7cd0.png align="right")](https://paypal.me/pmustafi)
+Happy coding `:)`
