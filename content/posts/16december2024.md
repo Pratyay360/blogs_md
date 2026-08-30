@@ -1,9 +1,8 @@
 ---
 title: my Linux journey so far
 description: my Linux journey so far (hashnode archive)
-date: '2026-08-30T14:55:00Z'
+date: '2024-12-16T14:55:00Z'
 draft: false
-weight: 0
 ---
 
 ## Beginning story
