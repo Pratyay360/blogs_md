@@ -7,9 +7,9 @@ draft: false
 
 
 
-## How to Use Google Sheets as a Database: A Complete Guide
+### How to Use Google Sheets as a Database: A Complete Guide
 
-## Introduction :-
+### Introduction :-
 
 Now you can use Google Sheets as a basic database to make your project work and
 prototype your project using google's inbuilt free api `Apps Script`.
@@ -19,7 +19,7 @@ json format and use in your project in this blog I am going to show you how to
 store collected from customized form. One can follow this code with moderate level
 of coding knowledge in Javascript / React js.
 
-## 1st step to start the project is to create a spreadsheet in Google Sheet
+### 1st step to start the project is to create a spreadsheet in Google Sheet
 
 ![sheet home page](https://cdn.hashnode.com/res/hashnode/image/upload/v1703787617966/09e8bb0a-a45e-4261-bf24-12222b6cc0b2.png)
 
@@ -145,7 +145,7 @@ export default function Home() {
 }
 ```
 
-### Here I am using next.js you can use the same code with react
+#### Here I am using next.js you can use the same code with react
 
 Here is the output of the code
 
@@ -159,7 +159,7 @@ As you can see the in the form is inserted into the spread sheet.
 
 ![recieved response](https://cdn.hashnode.com/res/hashnode/image/upload/v1703789052417/37c78462-af4d-48c7-8f71-2ef445f49002.png)
 
-## Cons of using spreadsheet as database
+### Cons of using spreadsheet as database
 
 * Increased Dependency on google's api
 
@@ -167,7 +167,7 @@ As you can see the in the form is inserted into the spread sheet.
 
 * Not so professional as it's no so safe to store users data in just a spreadsheet.
 
-## Pros
+### Pros
 
 * Easy prototyping
 

@@ -5,9 +5,9 @@ date: "2022-12-13"
 draft: false
 ---
 
-## Step-by-Step Guide to Setting Up a Free Self-Hosted VPN Using GitHub Education Pack
+# Step-by-Step Guide to Setting Up a Free Self-Hosted VPN Using GitHub Education Pack
 
-To set up a privacy-friendly free VPN we need to have a VPS hosted on a server or if you have a home server you can forward the ports you get while setting up OpenVPN in it but as most isp(internet service providers) uses CGNAT(Carrier-grade NAT) it's hard to get a dedicated public IP address for you from the isp they may charge you extra money for dedicated public IP too. So we can use a VPS which is easy to use and if you take a VPS in a foreign nation you can bypass censorship in your nation too which is something extra than self-hosting in a home server.
+#### To set up a privacy-friendly free VPN we need to have a VPS hosted on a server or if you have a home server you can forward the ports you get while setting up OpenVPN in it but as most isp(internet service providers) uses CGNAT(Carrier-grade NAT) it's hard to get a dedicated public IP address for you from the isp they may charge you extra money for dedicated public IP too. So we can use a VPS which is easy to use and if you take a VPS in a foreign nation you can bypass censorship in your nation too which is something extra than self-hosting in a home server.
 
 With the GitHub education pack you are getting a trial version of [AWS](http://aws.amazon.com), [azure](http://azure.microsoft.com), and [digital ocean](https://m.do.co/c/fc5d82bc2f25) you must have to have a credit card or an international debit card to verify your payment method. here I am going to use the [digital ocean](https://m.do.co/c/fc5d82bc2f25) in this tutorial you can use your preferred VPS providers.
 
