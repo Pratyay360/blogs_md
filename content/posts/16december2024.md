@@ -1,7 +1,7 @@
 ---
 title: my Linux journey so far
 description: my Linux journey so far (hashnode archive)
-date: '2024-12-16T14:55:00Z'
+date: "2024-12-16T14:55:00Z"
 draft: false
 ---
 
@@ -17,7 +17,7 @@ It was during covid Lockdown my school was off and I was binge watching some You
 
 So, after trying linux for 1-1.5 months on my computer(wsl) and thanks to low ram my experience with Virtualbox was not that good I had decided to install linux along side windows (dual boot). I was noob at that time at doing stuffs, installing a simple operating system was a trouble some job for me I deleted one partition from windows and installed ubuntu in that space it was not installed in the ssd even so I used to manually switch os from the bios. Even being installed on the hdd the ubuntu version was faster compared to the windows 10, I started small tinkering and exploring linux at that time that I was spending like 2/3rd of my time on linux and was booting on windows just to play some games. Once I was fully convinced about my linux skills I installed ubuntu permanently on the ssd part and also formatted my hdd drive from NTFS to ext4. Now I was officially a Linux user.
 
-![Ubuntu Desktop](https://res.cloudinary.com/canonical/image/fetch/f_auto,q_auto,fl_sanitize,c_fill,w_3840,h_2160/https://ubuntu.com/wp-content/uploads/d944/yaru-screenshot-large.jpg )
+![Ubuntu Desktop](https://res.cloudinary.com/canonical/image/fetch/f_auto,q_auto,fl_sanitize,c_fill,w_3840,h_2160/https://ubuntu.com/wp-content/uploads/d944/yaru-screenshot-large.jpg)
 
 (Representation of ubuntu desktop)
 
@@ -52,38 +52,38 @@ I personally boot Kde plasma flavour of fedora linux it's been 6 months and it's
 One of the biggest reasons I fell in love with Linux is the sense of **freedom** it offers.
 Unlike proprietary operating systems like Windows or macOS, Linux doesn’t limit you to a particular way of doing things. You’re free to:
 
-* Choose from hundreds of distributions that suit your needs, whether it's a beginner-friendly distro like Ubuntu or a cutting-edge rolling release like Arch Linux.
+- Choose from hundreds of distributions that suit your needs, whether it's a beginner-friendly distro like Ubuntu or a cutting-edge rolling release like Arch Linux.
 
-* Customize your system to work the way you want, from changing the desktop environment to tweaking even the smallest settings.
+- Customize your system to work the way you want, from changing the desktop environment to tweaking even the smallest settings.
 
-* Use your computer without worrying about invasive tracking or forced updates.  
-    This freedom extends to how you use your hardware as well. Linux runs smoothly even on older machines, letting you breathe new life into aging systems. For someone like me, who loves tinkering and optimizing, this level of control felt liberating.
+- Use your computer without worrying about invasive tracking or forced updates.  
+  This freedom extends to how you use your hardware as well. Linux runs smoothly even on older machines, letting you breathe new life into aging systems. For someone like me, who loves tinkering and optimizing, this level of control felt liberating.
 
 #### **Customization**
 
 The **customization** capabilities of Linux are what initially drew me in—and they’re what kept me hooked.
 With Linux, you’re not stuck with a standard, unchangeable interface. Instead, you can:
 
-* Switch between desktop environments like GNOME, KDE Plasma, or XFCE, depending on your preferences.
+- Switch between desktop environments like GNOME, KDE Plasma, or XFCE, depending on your preferences.
 
-* "Rice" your desktop to create stunning and minimalistic designs, tailoring everything from the color schemes to the window manager.
+- "Rice" your desktop to create stunning and minimalistic designs, tailoring everything from the color schemes to the window manager.
 
-* Modify the terminal to look and behave exactly how you want, using themes, plugins, and tools like Zsh or Oh My Zsh.  
-    For me, experimenting with different configurations felt like a creative outlet. The ability to design a workspace that was both visually pleasing and incredibly functional was empowering. Unlike closed systems, Linux encouraged me to make my computer an extension of my personality.
+- Modify the terminal to look and behave exactly how you want, using themes, plugins, and tools like Zsh or Oh My Zsh.  
+  For me, experimenting with different configurations felt like a creative outlet. The ability to design a workspace that was both visually pleasing and incredibly functional was empowering. Unlike closed systems, Linux encouraged me to make my computer an extension of my personality.
 
 #### **Open-Source Philosophy**
 
 At the heart of Linux is its **open-source philosophy**, which fundamentally changed the way I view technology. Open-source software isn’t just about using free tools—it’s about being part of a community where collaboration and transparency take precedence.
 
-* With Linux, I realized I wasn't just a passive consumer; I was part of a larger movement that values sharing knowledge and empowering others.
+- With Linux, I realized I wasn't just a passive consumer; I was part of a larger movement that values sharing knowledge and empowering others.
 
-* I could access the source code of the operating system and understand how it worked.
-* While I wasn't skilled enough to contribute back then, knowing that I could learn from it or even modify it if needed was inspiring.
+- I could access the source code of the operating system and understand how it worked.
+- While I wasn't skilled enough to contribute back then, knowing that I could learn from it or even modify it if needed was inspiring.
 
-* Most of the apps I used were open-source, from LibreOffice to GIMP, which helped
- me move away from pirated proprietary software. The open-source philosophy also
-made me appreciate how Linux thrives because of its community. Whether
-it was asking for help on forums, following FOSS advocates on YouTube, or contributing bug reports, I felt like I was part of something bigger.
+- Most of the apps I used were open-source, from LibreOffice to GIMP, which helped
+  me move away from pirated proprietary software. The open-source philosophy also
+  made me appreciate how Linux thrives because of its community. Whether
+  it was asking for help on forums, following FOSS advocates on YouTube, or contributing bug reports, I felt like I was part of something bigger.
 
 ### ostree
 

@@ -1,12 +1,13 @@
 ---
 title: Hello World
 description: Hello World; my first post
-date: '2026-08-22T21:13:00Z'
+date: "2026-08-22T21:13:00Z"
 draft: false
 tags:
   - blog
   - first post
 ---
+
 This is my small corner in the internet will be sharing ideas and thoughts
 maybe no one will be reading this but who cares. If only me and google spider
 reads this that’s perfectly fine. I will be writing stuff here sharing my views,

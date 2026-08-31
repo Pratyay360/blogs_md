@@ -25,19 +25,19 @@ cat .ssh/id_rsa.pub
 
 Type this command to see your public/private rsa key pair. now copy it and paste it here
 
-![gen ssh keys](https://cdn.hashnode.com/res/hashnode/image/upload/v1670950407505/HJoUqM82s.png )
+![gen ssh keys](https://cdn.hashnode.com/res/hashnode/image/upload/v1670950407505/HJoUqM82s.png)
 
-![add ssh keys](https://cdn.hashnode.com/res/hashnode/image/upload/v1670950349767/FYIlaVpZd.png )
+![add ssh keys](https://cdn.hashnode.com/res/hashnode/image/upload/v1670950349767/FYIlaVpZd.png)
 
 now go to market place and search here "OPENVPN"
 
-![create droplets](https://cdn.hashnode.com/res/hashnode/image/upload/v1670950531573/cO02aZcP7.png )
+![create droplets](https://cdn.hashnode.com/res/hashnode/image/upload/v1670950531573/cO02aZcP7.png)
 
-![openvpn access server](https://cdn.hashnode.com/res/hashnode/image/upload/v1670950588606/VQ-g7vKu_.png )
+![openvpn access server](https://cdn.hashnode.com/res/hashnode/image/upload/v1670950588606/VQ-g7vKu_.png)
 
 Click here and select a server configuration for you as we are using it as VPN our traffic is going to be a bit high so we are choosing this with a high bandwidth(2TB)
 
-![pricing page](https://cdn.hashnode.com/res/hashnode/image/upload/v1670950729615/NLrmhfMC1.png )
+![pricing page](https://cdn.hashnode.com/res/hashnode/image/upload/v1670950729615/NLrmhfMC1.png)
 
 ![country choose](https://cdn.hashnode.com/res/hashnode/image/upload/v1670950858960/22xqbPwp6.png)
 

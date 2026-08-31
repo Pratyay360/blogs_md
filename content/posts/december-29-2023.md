@@ -1,11 +1,9 @@
 ---
-title:  How to Use Google Sheets as a Database
-description:  How to Use Google Sheets as a Database (hashnode archive)
-date: '2023-12-29T14:55:00Z'
+title: How to Use Google Sheets as a Database
+description: How to Use Google Sheets as a Database (hashnode archive)
+date: "2023-12-29T14:55:00Z"
 draft: false
 ---
-
-
 
 ### How to Use Google Sheets as a Database: A Complete Guide
 
@@ -47,12 +45,12 @@ After opening **Apps Script** you should change the code with
 
 ```javascript
 const sheets = SpreadsheetApp.openByUrl("<Enter Spreadsheet url>");
-like
+like;
 // const sheets = SpreadsheetApp.openByUrl("https://docs.google.com/spreadsheets/d/1RJNF_42I9p3MTBPBM8aEVe0ZWLRzccojNNoKxGT7EHw/edit#gid=0");
 const sheet = sheets.getSheetByName("data");
-function doPost(e){
+function doPost(e) {
   let data = e.parameter;
-  sheet.appendRow([data.Name,data.Email,data.Message]);
+  sheet.appendRow([data.Name, data.Email, data.Message]);
   return ContentService.createTextOutput("Message Sent!");
 }
 ```
@@ -71,7 +69,7 @@ Make Sure to change access to anyone.
 
 ```javascript
 "use client"
-import React from "react"; 
+import React from "react";
 import { hydrateRoot } from 'react-dom/client';
 import { useEffect, useState } from 'react';
 import { FormEvent } from 'react'
@@ -131,7 +129,7 @@ export default function Home() {
                                 <input type="text" name="Message" placeholder="Enter Your Message" className="border rounded-lg py-3 px-3 mt-2 bg-black border-indigo-600 placeholder-white-500 text-white" />
                                 <button className="border border-indigo-600 hover:bg-indigo-600 bg-black text-white rounded-lg py-3 )font-semibold px-2" type="submit">Send Message</button>
                             </form>) :
-                            ( 
+                            (
                                 <p>Form not working properly Please report to pratyaymustafi@outlook.com</p>
                             )}
                         </div>
@@ -161,19 +159,19 @@ As you can see the in the form is inserted into the spread sheet.
 
 ### Cons of using spreadsheet as database
 
-* Increased Dependency on google's api
+- Increased Dependency on google's api
 
-* Less Scalability
+- Less Scalability
 
-* Not so professional as it's no so safe to store users data in just a spreadsheet.
+- Not so professional as it's no so safe to store users data in just a spreadsheet.
 
 ### Pros
 
-* Easy prototyping
+- Easy prototyping
 
-* Can be used to make customized survey form
+- Can be used to make customized survey form
 
-* Cost Effective
+- Cost Effective
 
 <!--You can visit my [portfolio page](). and [github repo](https://github.com/Pratyay360/pratyay-profile).-->
 
