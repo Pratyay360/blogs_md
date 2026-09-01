@@ -1,13 +1,19 @@
 ---
-title: Step-by-Step Guide to Setting Up a Free Self-Hosted VPN Using GitHub Education Pack
-description: Step-by-Step Guide to Setting Up a Free Self-Hosted VPN Using GitHub Education Pack (hashnode archive)
-date: "2022-12-13"
+title: >-
+  Step-by-Step Guide to Setting Up a Free Self-Hosted VPN Using GitHub Education
+  Pack
+description: >-
+  Step-by-Step Guide to Setting Up a Free Self-Hosted VPN Using GitHub Education
+  Pack (hashnode archive)
+date: '2022-12-13T00:00:00Z'
 draft: false
+weight: 0
+isCJKLanguage: false
+headless: false
 ---
-
 # Step-by-Step Guide to Setting Up a Free Self-Hosted VPN Using GitHub Education Pack
 
-#### To set up a privacy-friendly free VPN we need to have a VPS hosted on a server or if you have a home server you can forward the ports you get while setting up OpenVPN in it but as most isp(internet service providers) uses CGNAT(Carrier-grade NAT) it's hard to get a dedicated public IP address for you from the isp they may charge you extra money for dedicated public IP too. So we can use a VPS which is easy to use and if you take a VPS in a foreign nation you can bypass censorship in your nation too which is something extra than self-hosting in a home server.
+### Set up a Privacy-Friendly Free VPN We Need to Have a VPS Hosted on a Server or If You Have a Home Server You Can Forward the Ports You Get While Setting up OpenVPN in It but as Most Isp(Internet Service Providers) Uses CGNAT(Carrier-Grade NAT) It's Hard to Get a Dedicated Public IP Address for You from the Isp They May Charge You Extra Money for Dedicated Public IP Too. So We Can Use a VPS Which Is Easy to Use and If You Take a VPS in a Foreign Nation You Can Bypass Censorship in Your Nation Too Which Is Something Extra than Self-Hosting in a Home Server.
 
 With the GitHub education pack you are getting a trial version of [AWS](http://aws.amazon.com), [azure](http://azure.microsoft.com), and [digital ocean](https://m.do.co/c/fc5d82bc2f25) you must have to have a credit card or an international debit card to verify your payment method. here I am going to use the [digital ocean](https://m.do.co/c/fc5d82bc2f25) in this tutorial you can use your preferred VPS providers.
 
@@ -75,9 +81,10 @@ and import it into the Open-VPN app that's it.
 
 Here is how you are going to download your profile only.
 
-In the end, using the VPN of a corporation is a risk to your privacy as they can monitor or sell your queries if they want to do so. but by this method, you own the entire infrastructure and everything is under your control means you own all your data. If you love this article make sure to get a $200 coupon for the digital ocean from my link below to show some support for getting great blogs like this.
+In the end, using the VPN of a corporation is a risk to your privacy as they can monitor or sell your queries if they want to do so. but by this method, you own the entire infrastructure and everything is under your control means you own all your data. If you love this article make sure to get a 
+$200 coupon for the digital ocean from my link below to show some support for getting great blogs like this.
 
-[![DigitalOcean Referral Badge](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg)](https://www.digitalocean.com/?refcode=fc5d82bc2f25&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
+![DigitalOcean Referral Badge](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg)
 
 Hope this blog helped you.
 
