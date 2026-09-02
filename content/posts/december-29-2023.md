@@ -1,10 +1,12 @@
 ---
-title: How to Use Google Sheets as a Database
+title: Using Google Sheets as a Database
 description: How to Use Google Sheets as a Database (hashnode archive)
-date: "2023-12-29T14:55:00Z"
+date: '2023-12-29T14:55:00Z'
 draft: false
+weight: 0
+isCJKLanguage: false
+headless: false
 ---
-
 ### How to Use Google Sheets as a Database: A Complete Guide
 
 ### Introduction :-
@@ -160,20 +162,16 @@ As you can see the in the form is inserted into the spread sheet.
 ### Cons of using spreadsheet as database
 
 - Increased Dependency on google's api
-
 - Less Scalability
-
 - Not so professional as it's no so safe to store users data in just a spreadsheet.
 
 ### Pros
 
 - Easy prototyping
-
 - Can be used to make customized survey form
-
 - Cost Effective
 
-<!--You can visit my [portfolio page](). and [github repo](https://github.com/Pratyay360/pratyay-profile).-->
+
 
 Have used codes of [Anatu Tech](https://www.youtube.com/watch?v=ZA6j2PhXSUg) partly here.
 
