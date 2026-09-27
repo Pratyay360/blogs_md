@@ -8,6 +8,14 @@ description: >-
 date: '2022-12-13T00:00:00Z'
 draft: false
 weight: 0
+tags:
+  - digital ocean
+  - vps
+  - cloud
+  - github education
+  - vpn
+  - proxy
+  - openvpn
 isCJKLanguage: false
 headless: false
 ---
