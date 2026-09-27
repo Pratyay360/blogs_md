@@ -1,13 +1,15 @@
 ---
 title: Hello World
 description: Hello World; my first post
-date: "2026-08-22T21:13:00Z"
+date: '2026-08-22T21:13:00Z'
 draft: false
+weight: 0
 tags:
   - blog
   - first post
+isCJKLanguage: false
+headless: false
 ---
-
 This is my small corner in the internet will be sharing ideas and thoughts
 maybe no one will be reading this but who cares. If only me and google spider
 reads this that’s perfectly fine. I will be writing stuff here sharing my views,
@@ -29,4 +31,4 @@ realized that I am too introverted for that profession.
 
 I have got some hot takes too, but won’t be sharing everything in one post.
 
-### So, see you later dear anon
+**So, see you later dear anon**
