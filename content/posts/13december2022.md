@@ -1,6 +1,6 @@
 ---
 title: >-
-  Step-by-Step Guide to Setting Up a Free Self-Hosted VPN Using GitHub Education
+  Step by Step Guide to Set Up a Free Self Hosted VPN All Using GitHub Education
   Pack
 description: >-
   Step-by-Step Guide to Setting Up a Free Self-Hosted VPN Using GitHub Education
@@ -19,7 +19,7 @@ tags:
 isCJKLanguage: false
 headless: false
 ---
-### Step-by-Step Guide to Setting Up a Free Self-Hosted VPN Using GitHub Education Pack
+### Step by Step Guide to Setting Up a Free Self Hosted VPN Using GitHub Education Pack
 
 #### Set up a Privacy-Friendly Free VPN We Need to Have a VPS Hosted on a Server or If You Have a Home Server You Can Forward the Ports You Get While Setting up OpenVPN in It but as Most Isp(Internet Service Providers) Uses CGNAT(Carrier-Grade NAT) It's Hard to Get a Dedicated Public IP Address for You from the Isp They May Charge You Extra Money for Dedicated Public IP Too. So We Can Use a VPS Which Is Easy to Use and If You Take a VPS in a Foreign Nation You Can Bypass Censorship in Your Nation Too Which Is Something Extra than Self-Hosting in a Home Server.
 
