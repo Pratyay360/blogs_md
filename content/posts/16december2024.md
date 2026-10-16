@@ -1,10 +1,25 @@
 ---
-title: my Linux journey so far
-description: my Linux journey so far (hashnode archive)
-date: "2024-12-16T14:55:00Z"
+title: My adventures with linux so far..
+description: >-
+  How I moved from fumbling with basic commands to fine‑tuning a lean, fast
+  workstation. I’ll cover the distros I’ve tested, the tools that finally made
+  sense
+date: '2024-12-16T14:55:00Z'
 draft: false
+weight: 0
+tags:
+  - linux
+  - windows
+  - ubuntu
+  - mac os
+  - opensource
+  - covid 19
+  - virtualbox
+  - vm
+  - containers
+isCJKLanguage: false
+headless: false
 ---
-
 ### Beginning story
 
 It was during covid Lockdown my school was off and I was binge watching some YouTube videos on my windows desktop sitting and suddenly I had encountered with a video about Linux and riced ui stuff I was very much amused about how good looking, minimalistic that was then I decided to switch the os of my desktop and was little bit scared about my ability to use Linux stuff that’s why i have downloaded a Ubuntu Iso as ubuntu comes 1st when searching for something about Linux and I installed virtual box and tried it out by following some youtube tutorials it was good and most of the software I used to use were Pirated Proprietary ones like photoshop, microsoft office etc. Also being good with terminal was important so that if I messed something I am capable of repairing it with some google search and some youtube videos. So I had installed ubuntu wsl on my windows machine and started learning little commands used in the unix world. Tbh, I loved spending time on terminal and Vs code at that time like crazy. I was just coding learning new stuff from youtube and sitting in front of the monitor all day after using Wsl for 1-1.5 months and using Ubuntu on Virtual Box my love for linux just grew surprisingly. My desktop at home used to have less ram so virtual Box experience was not that good for me.
@@ -39,7 +54,7 @@ Have watched multiple movies, web series during lock down and I got very much mo
 
 ### Current Os
 
-Have purchased a powerful hp laptop with good processor and I had installed Endeavour os on it. The laptop was working well but after kernel v 5.8 bluetooth audio used to stutter a lot and wifi 5 ghz was not stable on my laptop may be due to some driver related issue so I switched my distro once again to the distro which creator of linux Linux Torvalds himself uses Fedora. After years of using Arch based distros i realized that they were not that stable for using them on the primary machine.
+Have purchased a powerful hp laptop with good processor and I had installed Endeavour os on it. The laptop was working well but after kernel v 5.8 Bluetooth audio used to stutter a lot and wifi 5 ghz was not stable on my laptop may be due to some driver related issue so I switched my distro once again to the distro which creator of linux Linux Torvalds himself uses Fedora. After years of using Arch based distros i realized that they were not that stable for using them on the primary machine.
 
 I personally boot Kde plasma flavour of fedora linux it's been 6 months and it's running fine for me rolling release and stable flatpack updated on top of it are good. Now, I don't distrohop any more I have found my sweet spot.
 
@@ -49,15 +64,13 @@ I personally boot Kde plasma flavour of fedora linux it's been 6 months and it's
 
 #### **Freedom**
 
-One of the biggest reasons I fell in love with Linux is the sense of **freedom** it offers.
+One of the biggest reasons I fell in love with Linux is the sense of **freedom** it offers.   
 Unlike proprietary operating systems like Windows or macOS, Linux doesn’t limit you to a particular way of doing things. You’re free to:
 
 - Choose from hundreds of distributions that suit your needs, whether it's a beginner-friendly distro like Ubuntu or a cutting-edge rolling release like Arch Linux.
-
 - Customize your system to work the way you want, from changing the desktop environment to tweaking even the smallest settings.
-
 - Use your computer without worrying about invasive tracking or forced updates.  
-  This freedom extends to how you use your hardware as well. Linux runs smoothly even on older machines, letting you breathe new life into aging systems. For someone like me, who loves tinkering and optimizing, this level of control felt liberating.
+This freedom extends to how you use your hardware as well. Linux runs smoothly even on older machines, letting you breathe new life into aging systems. For someone like me, who loves tinkering and optimizing, this level of control felt liberating.
 
 #### **Customization**
 
@@ -65,25 +78,21 @@ The **customization** capabilities of Linux are what initially drew me in—and 
 With Linux, you’re not stuck with a standard, unchangeable interface. Instead, you can:
 
 - Switch between desktop environments like GNOME, KDE Plasma, or XFCE, depending on your preferences.
-
 - "Rice" your desktop to create stunning and minimalistic designs, tailoring everything from the color schemes to the window manager.
-
 - Modify the terminal to look and behave exactly how you want, using themes, plugins, and tools like Zsh or Oh My Zsh.  
-  For me, experimenting with different configurations felt like a creative outlet. The ability to design a workspace that was both visually pleasing and incredibly functional was empowering. Unlike closed systems, Linux encouraged me to make my computer an extension of my personality.
+For me, experimenting with different configurations felt like a creative outlet. The ability to design a workspace that was both visually pleasing and incredibly functional was empowering. Unlike closed systems, Linux encouraged me to make my computer an extension of my personality.
 
 #### **Open-Source Philosophy**
 
 At the heart of Linux is its **open-source philosophy**, which fundamentally changed the way I view technology. Open-source software isn’t just about using free tools—it’s about being part of a community where collaboration and transparency take precedence.
 
 - With Linux, I realized I wasn't just a passive consumer; I was part of a larger movement that values sharing knowledge and empowering others.
-
 - I could access the source code of the operating system and understand how it worked.
 - While I wasn't skilled enough to contribute back then, knowing that I could learn from it or even modify it if needed was inspiring.
-
 - Most of the apps I used were open-source, from LibreOffice to GIMP, which helped
-  me move away from pirated proprietary software. The open-source philosophy also
-  made me appreciate how Linux thrives because of its community. Whether
-  it was asking for help on forums, following FOSS advocates on YouTube, or contributing bug reports, I felt like I was part of something bigger.
+me move away from pirated proprietary software. The open-source philosophy also
+made me appreciate how Linux thrives because of its community. Whether
+it was asking for help on forums, following FOSS advocates on YouTube, or contributing bug reports, I felt like I was part of something bigger.
 
 ### ostree
 
@@ -91,13 +100,12 @@ ostree based distros like kinoite and bazzite are my new preference. have starte
 
 ### **Conclusion**
 
-Switching to Linux taught me more than just technical skills—it gave me a new perspective
-on **freedom, creativity, and community**. The ability to customize my system,
-use free and open-source software, and break away from proprietary restrictions
-made my journey rewarding. Linux isn't just an operating system; it's a way to
+Switching to Linux taught me more than just technical skills it gave me a new perspective  
+on **freedom, creativity, and community**. The ability to customize my system,  
+use free and open-source software, and break away from proprietary restrictions  
+made my journey rewarding. Linux isn't just an operating system; it's a way to  
 embrace technology with curiosity and empowerment.
 
 ### Continuation
 
-Using linux is like a journey and the path is full of learning.
-I will be updating this post as my workflow changes.
+Using Linux or a Unix-like system is a continuous journey of discovery and learning. I will update this post as my workflow evolves.
