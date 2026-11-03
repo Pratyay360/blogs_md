@@ -98,13 +98,13 @@ ostree based distros like kinoite and bazzite are my new preference. Have starte
 
 ### [**Toolbox Containers**](https://containertoolbx.org/)
 
-Toolbox containers are a special type of container in which the user's `$HOME` directory is shared between the container and the host. This is particularly advantageous when testing new or untrusted applications in an isolated environment. In fact, even trusted applications that don't necessarily need access to the host's `/usr/bin` can be installed and run inside Toolbox.
+Toolbox containers are a special type of container in which the user's  `$HOME` directory is shared between the container and the host. This is particularly advantageous when testing new or untrusted applications in an isolated environment. In fact, even trusted applications that don't necessarily need access to the host's `/usr/bin` can be installed and run inside Toolbox.
 
-Toolbox containers also share the host's sockets like, SSH agent and the host's authentication mechanisms. Since the `$HOME` directory is shared, user configurations, themes, and other personal customization are seamlessly integrated, providing a consistent experience across the host and container.
+Toolbox containers also share the host's sockets like, SSH agent and the host's authentication mechanisms. Since the  `$HOME` directory is shared, user configurations, themes, and other personal customization are seamlessly integrated, providing a consistent experience across the host and container.
 
 I've often seen people recommend using Flatpak for GUI applications and Toolbox for command-line tools. However, Toolbox containers are perfectly capable of running GUI applications too. I've been installing and running GUI apps directly inside Toolbox for quite some time, and honestly, I've never noticed any significant difference in the overall experience. Even I have installed all my web browsers inside toolbox containers.
 
-Unlike flatpak where users are limited to specific number of [freedesktop](https://gitlab.com/freedesktop-sdk/freedesktop-sdk/-/wikis/Freedesktop-SDK-Flatpak-repository) runtimes, Users can use any in the case of toolbox, also the command flatpak-spawn available inside toolbox containers though it’s just a shell script, [I have even built a cli tool to accompany me while using toolbox containers](https://github.com/Pratyay360/chaotic-toolbx). 
+Unlike flatpak where users are limited to specific number of [freedesktop](https://gitlab.com/freedesktop-sdk/freedesktop-sdk/-/wikis/Freedesktop-SDK-Flatpak-repository) run times, Users can use any in the case of toolbox, also the command `flatpak-spawn` available inside toolbox containers though it’s just a shell script, [I have even built a cli tool to accompany me while using toolbox containers](https://github.com/Pratyay360/chaotic-toolbx). 
 
 #### **Conclusion**
 
