@@ -103,7 +103,7 @@ Toolbox containers also share the host's sockets like, SSH agent and the host's 
 
 I've often seen people recommend using Flatpak for GUI applications and Toolbox for command-line tools. However, Toolbox containers are perfectly capable of running GUI applications too. I've been installing and running GUI apps directly inside Toolbox for quite some time, and honestly, I've never noticed any significant difference in the overall experience. Even I have installed all my web browsers inside toolbox containers.
 
-Unlike flatpak where users are limited to specific number of [freedesktop](https://gitlab.com/freedesktop-sdk/freedesktop-sdk/-/wikis/Freedesktop-SDK-Flatpak-repository) run times, Users can use any in the case of toolbox, also the command `flatpak-spawn` available inside toolbox containers though it’s just a shell script, [I have even built a cli tool to accompany me while using toolbox containers](https://github.com/Pratyay360/chaotic-toolbx). 
+Unlike flatpak where users are limited to specific number of [freedesktop](https://gitlab.com/freedesktop-sdk/freedesktop-sdk/-/wikis/Freedesktop-SDK-Flatpak-repository) run times, Users can use any in the case of toolbox, also the command `flatpak-spawn` available inside toolbox containers though it’s just a shell script, [I have even built a cli tool to accompany me while using toolbox containers.](https://github.com/Pratyay360/toolbox-export) 
 
 #### **Conclusion**
 
