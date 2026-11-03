@@ -16,7 +16,6 @@ tags:
   - containers
 isCJKLanguage: false
 headless: false
-author: pratyay360
 ---
 ### Beginning story
 
