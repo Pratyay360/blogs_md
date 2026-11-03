@@ -1,9 +1,6 @@
 ---
-title: My adventures with linux so far..
-description: >-
-  How I moved from fumbling with basic commands to fine‑tuning a lean, fast
-  workstation. I’ll cover the distros I’ve tested, the tools that finally made
-  sense
+title: My adventures with linux so far.
+description: 'Will cover the distros I’ve tested, the tools that made sense to me,'
 date: '2024-12-16T14:55:00Z'
 draft: false
 weight: 0
@@ -19,10 +16,11 @@ tags:
   - containers
 isCJKLanguage: false
 headless: false
+author: pratyay360
 ---
 ### Beginning story
 
-It was during covid Lockdown my school was off and I was binge watching some YouTube videos on my windows desktop sitting and suddenly I had encountered with a video about Linux and riced ui stuff I was very much amused about how good looking, minimalistic that was then I decided to switch the os of my desktop and was little bit scared about my ability to use Linux stuff that’s why i have downloaded a Ubuntu Iso as ubuntu comes 1st when searching for something about Linux and I installed virtual box and tried it out by following some youtube tutorials it was good and most of the software I used to use were Pirated Proprietary ones like photoshop, microsoft office etc. Also being good with terminal was important so that if I messed something I am capable of repairing it with some google search and some youtube videos. So I had installed ubuntu wsl on my windows machine and started learning little commands used in the unix world. Tbh, I loved spending time on terminal and Vs code at that time like crazy. I was just coding learning new stuff from youtube and sitting in front of the monitor all day after using Wsl for 1-1.5 months and using Ubuntu on Virtual Box my love for linux just grew surprisingly. My desktop at home used to have less ram so virtual Box experience was not that good for me.
+It was during covid Lockdown my school was off and I was binge watching some YouTube videos on my windows desktop sitting and suddenly I had encountered with a video about Linux and riced ui stuff I was very much amused about how good looking, minimalistic that was then I decided to switch the os of my desktop and was little bit scared about my ability to use Linux stuff that’s why i have downloaded an Ubuntu Iso as ubuntu comes 1st when searching for something about Linux and I installed virtual box and tried it out by following some youtube tutorials it was good and most of the software I used to use were Pirated Proprietary ones like photoshop, microsoft office etc. Also being good with terminal was important so that if I messed something I am capable of repairing it with some google search and some youtube videos. So I had installed ubuntu wsl on my windows machine and started learning little commands used in the unix world. Tbh, I loved spending time on terminal and Vs code at that time like crazy. I was just coding learning new stuff from youtube and sitting in front of the monitor all day after using Wsl for 1-1.5 months and using Ubuntu on Virtual Box my love for linux just grew surprisingly. My desktop at home used to have less ram so virtual Box experience was not that good for me.
 
 ![Windows Subsystem for Linux - Wikipedia](https://upload.wikimedia.org/wikipedia/commons/2/27/Ubuntu_on_Windows_10_-_bash.png)
 
@@ -56,7 +54,7 @@ Have watched multiple movies, web series during lock down and I got very much mo
 
 Have purchased a powerful hp laptop with good processor and I had installed Endeavour os on it. The laptop was working well but after kernel v 5.8 Bluetooth audio used to stutter a lot and wifi 5 ghz was not stable on my laptop may be due to some driver related issue so I switched my distro once again to the distro which creator of linux Linux Torvalds himself uses Fedora. After years of using Arch based distros i realized that they were not that stable for using them on the primary machine.
 
-I personally boot Kde plasma flavour of fedora linux it's been 6 months and it's running fine for me rolling release and stable flatpack updated on top of it are good. Now, I don't distrohop any more I have found my sweet spot.
+I personally boot Kde plasma flavor of fedora linux it's been 6 months and it's running fine for me rolling release and stable flatpack updated on top of it are good. Now, I don't distro hop any more I have found my sweet spot.
 
 ![fastfetch](https://cdn.hashnode.com/res/hashnode/image/upload/v1734346269192/a55b5cc6-2c0c-4204-9b61-463f54161f71.png)
 
@@ -64,7 +62,7 @@ I personally boot Kde plasma flavour of fedora linux it's been 6 months and it's
 
 #### **Freedom**
 
-One of the biggest reasons I fell in love with Linux is the sense of **freedom** it offers.   
+One of the biggest reasons I fell in love with Linux is the sense of **freedom** it offers.  
 Unlike proprietary operating systems like Windows or macOS, Linux doesn’t limit you to a particular way of doing things. You’re free to:
 
 - Choose from hundreds of distributions that suit your needs, whether it's a beginner-friendly distro like Ubuntu or a cutting-edge rolling release like Arch Linux.
