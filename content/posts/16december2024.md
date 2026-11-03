@@ -76,7 +76,7 @@ The **customization** capabilities of Linux are what initially drew me in—and 
 With Linux, you’re not stuck with a standard, unchangeable interface. Instead, you can:
 
 - Switch between desktop environments like GNOME, KDE Plasma, or XFCE, depending on your preferences.
-- "Rice" your desktop to create stunning and minimalistic designs, tailoring everything from the color schemes to the window manager.
+- "Rice" your desktop to create stunning and minimalist designs, tailoring everything from the color schemes to the window manager.
 - Modify the terminal to look and behave exactly how you want, using themes, plugins, and tools like Zsh or Oh My Zsh.  
 For me, experimenting with different configurations felt like a creative outlet. The ability to design a workspace that was both visually pleasing and incredibly functional was empowering. Unlike closed systems, Linux encouraged me to make my computer an extension of my personality.
 
