@@ -94,9 +94,21 @@ it was asking for help on forums, following FOSS advocates on YouTube, or contri
 
 ### ostree
 
-ostree based distros like kinoite and bazzite are my new preference. have started with Ublue's aurora and have loved immutable distributions. So installed kinoite on my laptop and have been using it for past 6 7 months. and it feels so complete as a distro and the way it handles updates and rollbacks is just amazing. I have rebased from kinoite base to my own [recepie](https://github.com/Pratyay360/blueee-os). Images are available at [quay.io](https://quay.io/organization/pratyay360)
+ostree based distros like kinoite and bazzite are my new preference. Have started with Ublue's aurora and have loved immutable distributions. So installed kinoite on my laptop and have been using it for past 6 7 months. and it feels so complete as a distro and the way it handles updates and rollbacks is just amazing. I have rebased from kinoite base to my own [recepie](https://github.com/Pratyay360/blueee-os). Images are available at [quay.io](https://quay.io/organization/pratyay360)
 
-### **Conclusion**
+
+
+#### [Toolbox Containers](https://containertoolbx.org/)
+
+Toolbox containers are a special type of container in which the user's `$HOME` directory is shared between the container and the host. This is particularly advantageous when testing new or untrusted applications in an isolated environment. In fact, even trusted applications that don't necessarily need access to the host's `/usr/bin` can be installed and run inside Toolbox.
+
+Toolbox containers also share the host's sockets like, SSH agent and the host's authentication mechanisms. Since the `$HOME` directory is shared, user configurations, themes, and other personal customization are seamlessly integrated, providing a consistent experience across the host and container.
+
+I've often seen people recommend using Flatpak for GUI applications and Toolbox for command-line tools. However, Toolbox containers are perfectly capable of running GUI applications too. I've been installing and running GUI apps directly inside Toolbox for quite some time, and honestly, I've never noticed any significant difference in the overall experience. Even I have installed all my web browsers inside toolbox containers.
+
+Unlike flatpak where users are limited to specific number of runtimes, Users can use any in the case of toolbox, also the command flatpak-spawn available inside toolbox containers though it’s just a shell script, [I have even built an cli tool to accompany me while using toolbox containers](https://github.com/Pratyay360/chaotic-toolbx). 
+
+#### **Conclusion**
 
 Switching to Linux taught me more than just technical skills it gave me a new perspective  
 on **freedom, creativity, and community**. The ability to customize my system,  
