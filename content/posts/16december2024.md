@@ -98,7 +98,7 @@ ostree based distros like kinoite and bazzite are my new preference. Have starte
 
 
 
-#### [Toolbox Containers](https://containertoolbx.org/)
+### [**Toolbox Containers**](https://containertoolbx.org/)
 
 Toolbox containers are a special type of container in which the user's `$HOME` directory is shared between the container and the host. This is particularly advantageous when testing new or untrusted applications in an isolated environment. In fact, even trusted applications that don't necessarily need access to the host's `/usr/bin` can be installed and run inside Toolbox.
 
