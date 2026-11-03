@@ -92,11 +92,9 @@ me move away from pirated proprietary software. The open-source philosophy also
 made me appreciate how Linux thrives because of its community. Whether
 it was asking for help on forums, following FOSS advocates on YouTube, or contributing bug reports, I felt like I was part of something bigger.
 
-### ostree
+### Ostree
 
 ostree based distros like kinoite and bazzite are my new preference. Have started with Ublue's aurora and have loved immutable distributions. So installed kinoite on my laptop and have been using it for past 6 7 months. and it feels so complete as a distro and the way it handles updates and rollbacks is just amazing. I have rebased from kinoite base to my own [recepie](https://github.com/Pratyay360/blueee-os). Images are available at [quay.io](https://quay.io/organization/pratyay360)
-
-
 
 ### [**Toolbox Containers**](https://containertoolbx.org/)
 
