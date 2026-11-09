@@ -18,7 +18,7 @@ Many of you may know about my new desktop app DRAWX is released. Drawx is built 
 
 
 
-So let’s go step by step search for microsoft partner center. [https://partner.microsoft.com/en-US/](https://partner.microsoft.com/en-US/) 
+So let’s go step by step search for Microsoft partner center. [https://partner.microsoft.com/en-US/](https://partner.microsoft.com/en-US/) 
 
 
 
