@@ -16,11 +16,7 @@ slug: publish-tauri-app-to-microsoft-store
 ---
 Many of you may know about my new desktop app DRAWX is released. Drawx is built with tauriv2 and vite React similar to the state where your app is currently.Tauriv2 is rust based framework for building cross-platform performant applications.But people mostly focus on desktop apps when using tauri. You all have setup the ci from crab nebula cloud’s website. But how to release on microsoft store the largest appstore/marketplace for desktop apps.
 
-
-
 So let’s go step by step search for Microsoft partner center. [https://partner.microsoft.com/en-US/](https://partner.microsoft.com/en-US/) 
-
-
 
 1. step 1: sign in to partner account/ make an account if you don’t have yet.
 
