@@ -12,6 +12,7 @@ tags:
   - drawx
 isCJKLanguage: false
 headless: false
+slug: publish-tauri-app-to-microsoft-store
 ---
 Many of you may know about my new desktop app DRAWX is released. Drawx is built with tauriv2 and vite React similar to the state where your app is currently.Tauriv2 is rust based framework for building cross-platform performant applications.But people mostly focus on desktop apps when using tauri. You all have setup the ci from crab nebula cloud’s website. But how to release on microsoft store the largest appstore/marketplace for desktop apps.
 
@@ -25,7 +26,7 @@ So let’s go step by step search for microsoft partner center. [https://partner
 
 ![](https://i.ibb.co/jk5CMTR7/image-png.png)
 
-2. step 2: understanding signing 
+2. step 2: understanding signing
 
 . If you understand how I have stored works then you have a heard about code signing. And signing code is really expensive code signing is something you can’t generate yourself and work with that. Code signing is expensive and there is a chain of trust behind that like in the case of most of the ssl providers. 
 
@@ -47,23 +48,18 @@ reserve a name
 
 step 3 – obtain a code‑signing certificate
 
-- Obtain an EV or OV code‑signing certificate from a trusted CA, complete identity verification, and download the *.pfx* file.  
-- In `src-tauri/tauri.conf.json` add the `bundle.windows` section with the certificate path, password, publisher info, timestamp URL, and set `bundle.windows.msix` to `true`; then run `cargo tauri build --release` to produce an *.msix* package.  
-- Test the MSIX locally on a clean Windows VM using `Add-AppxPackage`, ensure the app runs and has the required capabilities in `Package.appxmanifest`; adjust and rebuild if needed.  
-- Submit the app in Microsoft Partner Center as a **Desktop app (MSIX)**: fill listing metadata, upload the signed *.msix*, and provide the Publisher ID.  
-- Address any certification feedback from Microsoft, rebuild, and resubmit until the package passes.  
-- Once certified, publish; the app becomes available in the Store within 24‑48 hours and can be monitored via Partner Center analytics.  
-- Automate steps 3‑5 in CI (e.g., GitHub Actions) by storing the .pfx as an encrypted secret and passing it to `tauri-cli` through environment variables.
+if publishing .exe or .msi 
 
-step 8 – publish &amp; monitor  
-  • once the submission passes certification, hit **Publish**.  
-  • the app will appear in the Microsoft Store within 24‑48 hours.  
-  • use the Partner Center analytics dashboard to track downloads, crash reports, and user reviews.  
-
-💡 quick tip: automate steps 3‑5 in your CI (e.g., GitHub Actions) by storing the .pfx as an encrypted secret and invoking `tauri-cli` with the appropriate environment variables. This keeps your store releases repeatable and reduces manual overhead.
+[https://www.digicert.com/signing/code-signing-certificates#code\_signing\_key\_locker](https://www.digicert.com/signing/code-signing-certificates#code_signing_key_locker)
 
 
 
-But you all may say what appx. 100$/user/month for some code signing service. Isn’t there a workaround. 
+[https://www.globalsign.com/en/code-signing-certificate/what-is-code-signing-certificate](https://www.globalsign.com/en/code-signing-certificate/what-is-code-signing-certificate)
 
-yes there is a Microsoft partner policy you can generate the cert for an .exe and .msi
+
+
+there is a Microsoft partner policy where they will be signing your binaries on behalf of you, 
+
+But binaries have to be `.msix` `.appx` 
+
+![](https://i.ibb.co/9mJF99yq/image-png.png)
