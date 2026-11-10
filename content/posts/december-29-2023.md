@@ -175,4 +175,4 @@ As you can see the in the form is inserted into the spread sheet.
 
 Have used codes of [Anatu Tech](https://www.youtube.com/watch?v=ZA6j2PhXSUg) partly here.
 
-Happy coding `:)`
+If you adapt this for your own form, replace the Apps Script URL and column names to match your sheet.

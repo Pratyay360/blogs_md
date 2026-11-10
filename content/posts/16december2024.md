@@ -19,7 +19,11 @@ headless: false
 ---
 ### Beginning story
 
-It was during covid Lockdown my school was off and I was binge watching some YouTube videos on my windows desktop sitting and suddenly I had encountered with a video about Linux and riced ui stuff I was very much amused about how good looking, minimalistic that was then I decided to switch the os of my desktop and was little bit scared about my ability to use Linux stuff that’s why i have downloaded an Ubuntu Iso as ubuntu comes 1st when searching for something about Linux and I installed virtual box and tried it out by following some youtube tutorials it was good and most of the software I used to use were Pirated Proprietary ones like photoshop, microsoft office etc. Also being good with terminal was important so that if I messed something I am capable of repairing it with some google search and some youtube videos. So I had installed ubuntu wsl on my windows machine and started learning little commands used in the unix world. Tbh, I loved spending time on terminal and Vs code at that time like crazy. I was just coding learning new stuff from youtube and sitting in front of the monitor all day after using Wsl for 1-1.5 months and using Ubuntu on Virtual Box my love for linux just grew surprisingly. My desktop at home used to have less ram so virtual Box experience was not that good for me.
+During the COVID lockdown, my school was closed and I spent a lot of time watching YouTube on my Windows desktop. One day I came across a video about Linux and riced desktop setups. I liked how minimal and polished they looked, so I decided to try Linux on my own machine.
+
+I was not fully confident yet, so I started with Ubuntu. I downloaded the ISO and tried it in VirtualBox by following tutorials. At the time, most of the software I used was pirated proprietary software like Photoshop and Microsoft Office, so I also needed to find alternatives. I knew being comfortable with the terminal mattered in case I broke something and needed to fix it with a search.
+
+I installed Ubuntu WSL on my Windows machine and started learning basic Unix commands. I loved spending time in the terminal and VS Code. After using WSL for about a month and a half and running Ubuntu in VirtualBox, I wanted to use Linux more seriously. My desktop did not have much RAM, so the VirtualBox experience was not great.
 
 ![Windows Subsystem for Linux - Wikipedia](https://upload.wikimedia.org/wikipedia/commons/2/27/Ubuntu_on_Windows_10_-_bash.png)
 
@@ -71,7 +75,7 @@ This freedom extends to how you use your hardware as well. Linux runs smoothly e
 
 #### **Customization**
 
-The **customization** capabilities of Linux are what initially drew me in—and they’re what kept me hooked.
+The **customization** capabilities of Linux are what initially drew me in, and they are what kept me hooked.
 With Linux, you’re not stuck with a standard, unchangeable interface. Instead, you can:
 
 - Switch between desktop environments like GNOME, KDE Plasma, or XFCE, depending on your preferences.
@@ -81,7 +85,7 @@ For me, experimenting with different configurations felt like a creative outlet.
 
 #### **Open-Source Philosophy**
 
-At the heart of Linux is its **open-source philosophy**, which fundamentally changed the way I view technology. Open-source software isn’t just about using free tools—it’s about being part of a community where collaboration and transparency take precedence.
+At the heart of Linux is its **open-source philosophy**, which fundamentally changed the way I view technology. Open-source software is not just about using free tools. It is about being part of a community where collaboration and transparency take precedence.
 
 - With Linux, I realized I wasn't just a passive consumer; I was part of a larger movement that values sharing knowledge and empowering others.
 - I could access the source code of the operating system and understand how it worked.

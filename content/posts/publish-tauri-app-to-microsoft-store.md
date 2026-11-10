@@ -2,7 +2,7 @@
 title: Publish tauri app to microsoft store.
 description: publish tauri v2 app on microsoft store.
 date: '2026-11-09T18:45:16Z'
-draft: true
+draft: false
 tags:
   - microsoft
   - exe
@@ -14,10 +14,9 @@ isCJKLanguage: false
 headless: false
 slug: publish-tauri-app-to-microsoft-store
 ---
-
 I recently released DRAWX, a desktop app built with Tauri v2 and Vite + React. Tauri v2 is a Rust-based framework for building cross-platform desktop applications. Many Tauri projects already have CI set up (for example, through CrabNebula Cloud), but publishing to the Microsoft Store is a different process.
 
-This guide walks through the steps to publish a Tauri app to the Microsoft Store.
+This guide walks through the steps to publish a Tauriv2 app to the Microsoft Store.
 
 Start with Microsoft Partner Center: [https://partner.microsoft.com/en-US/](https://partner.microsoft.com/en-US/)
 

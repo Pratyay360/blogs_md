@@ -89,11 +89,8 @@ and import it into the Open-VPN app that's it.
 
 Here is how you are going to download your profile only.
 
-In the end, using the VPN of a corporation is a risk to your privacy as they can monitor or sell your queries if they want to do so. but by this method, you own the entire infrastructure and everything is under your control means you own all your data. If you love this article make sure to get a 
-$200 coupon for the digital ocean from my link below to show some support for getting great blogs like this.
+Running your own VPN on a VPS gives you more control over the server configuration and the data stored on it than using a third-party VPN provider. It does not remove every privacy risk, since your VPS provider and network path still matter, but it can be a useful setup if you understand the trade-offs.
+
+If you want to support this blog, you can use my DigitalOcean referral link below.
 
 ![DigitalOcean Referral Badge](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg)
-
-Hope this blog helped you.
-
-Happy coding :)
