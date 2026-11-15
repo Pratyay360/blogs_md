@@ -1,7 +1,5 @@
 ---
-title: >-
-  Step by Step Guide to Set Up a Free Self Hosted VPN All Using GitHub Education
-  Pack
+title: Setting up a Free Self Hosted VPN Using only GitHub Education Pack for free
 description: >-
   Step-by-Step Guide to Setting Up a Free Self-Hosted VPN Using GitHub Education
   Pack (hashnode archive)
@@ -18,6 +16,7 @@ tags:
   - openvpn
 isCJKLanguage: false
 headless: false
+slug: 13december2022
 ---
 ### Step by Step Guide to Setting Up a Free Self Hosted VPN Using GitHub Education Pack
 
