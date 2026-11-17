@@ -1,5 +1,5 @@
 ---
-title: Publish tauri app to microsoft store.
+title: Release your desktop app built with tauriv2 on microsoft store.
 description: publish tauri v2 app on microsoft store for distribution.
 date: '2026-11-09T18:45:16Z'
 draft: false
