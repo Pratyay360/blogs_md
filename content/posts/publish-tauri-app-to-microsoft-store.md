@@ -1,6 +1,6 @@
 ---
 title: Publish tauri app to microsoft store.
-description: publish tauri v2 app on microsoft store.
+description: publish tauri v2 app on microsoft store for distribution.
 date: '2026-11-09T18:45:16Z'
 draft: false
 tags:
@@ -14,7 +14,7 @@ isCJKLanguage: false
 headless: false
 slug: publish-tauri-app-to-microsoft-store
 ---
-I recently released DRAWX, a desktop app built with Tauri v2 and Vite + React. Tauri v2 is a Rust-based framework for building cross-platform desktop applications. Many Tauri projects already have CI set up (for example, through CrabNebula Cloud), but publishing to the Microsoft Store is a different process.
+I recently built DRAWX, a desktop app built using Tauriv2 and Vite + React. Tauriv2 is a Rust based framework for building cross-platform desktop applications. Many Tauri projects already have CI set up (for example, through CrabNebula Cloud), but publishing to the Microsoft Store is a different process.
 
 This guide walks through the steps to publish a Tauriv2 app to the Microsoft Store.
 
@@ -48,7 +48,7 @@ In Partner Center, reserve the name you want to use for your app.
 
 ## 4. Get a code-signing certificate (if needed)
 
-If you publish `.exe` or `.msi` installers outside the Store signing flow, you need your own code-signing certificate:
+If you publish `.exe` or `.msi` Installers outside the Store signing flow, you need your own code-signing certificate:
 
 - [Code signing certificates (DigiCert)](https://www.digicert.com/signing/code-signing-certificates#code_signing_key_locker)
 - [What is a code signing certificate? (GlobalSign)](https://www.globalsign.com/en/code-signing-certificate/what-is-code-signing-certificate)
