@@ -1,6 +1,8 @@
 ---
-title: Hello World
-description: Hello World; my first post
+title: 'Hello World, my first post'
+description: >-
+  A short introduction to the blog: what it’s about, why it exists, and the
+  ideas and projects to come.
 date: '2026-08-22T21:13:00Z'
 draft: false
 weight: 0
@@ -9,6 +11,7 @@ tags:
   - first post
 isCJKLanguage: false
 headless: false
+slug: firstpost
 ---
 This is my small corner in the internet will be sharing ideas and thoughts
 maybe no one will be reading this but who cares. If only me and google spider
