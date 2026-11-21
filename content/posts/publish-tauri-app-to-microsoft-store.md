@@ -52,11 +52,11 @@ These pages explain code signing and certificate options:
 
 In Partner Center, reserve the name you want to use for your app.
 
-![](https://i.ibb.co/s9LGJBLd/image-png.png "create new app")
+![create new app](https://i.ibb.co/s9LGJBLd/image-png.png)
 
-![](https://i.ibb.co/pjw8ghpz/image-png.png "reserve app name")
+![reserve app name](https://i.ibb.co/pjw8ghpz/image-png.png)
 
-### 4. Get a code signing certificate for releasing `.exe` or `.msi` 
+### 4. Get a code signing certificate for releasing `.exe` or `.msi`
 
 If you publish `.exe` or `.msi` Installers in the Store. Getting a code signing is necessary you need a code signing certificate which can be obtained from online providers, [DigiCert](https://www.digicert.com/signing/code-signing-certificates#code_signing_key_locker) [or GlobalSign.](https://www.globalsign.com/en/code-signing-certificate/what-is-code-signing-certificate) 
 
@@ -749,8 +749,4 @@ finally {
 
 The app store listing 
 
-[![](https://i.ibb.co/5xvbQQ4C/image-png.png "Drawx draw")](https://apps.microsoft.com/store/detail/9MT3RCXNDBT4?cid=DevShareMCLPCS)
-
-
-
-&nbsp;
+[![Drawx draw](https://i.ibb.co/5xvbQQ4C/image-png.png)](https://apps.microsoft.com/store/detail/9MT3RCXNDBT4?cid=DevShareMCLPCS)
