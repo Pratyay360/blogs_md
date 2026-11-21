@@ -20,7 +20,7 @@ isCJKLanguage: false
 headless: false
 slug: publish-tauri-app-to-microsoft-store
 ---
-I recently built DRAWX, a desktop app built using Tauriv2 and Vite + React. Tauriv2 is a Rust based framework for building cross-platform desktop applications. Many Tauri projects already have CI set up (for example, through CrabNebula Cloud), but publishing to the Microsoft Store is a different process.
+I recently built Drawx, a desktop app built using Tauriv2 and Vite + React. Tauriv2 is rust based framework for building cross-platform desktop applications. Many Tauri projects already have CI set up (for example, through CrabNebula Cloud), but publishing to the Microsoft Store is a different process.
 
 This guide walks through the steps to publish a Tauriv2 app to the Microsoft Store.
 
@@ -38,8 +38,8 @@ If you plan to publish desktop binaries, you need to understand code signing. Co
 
 These pages explain code signing and certificate options:
 
-- [What is a code signing certificate? (GlobalSign)](https://www.globalsign.com/en/code-signing-certificate/what-is-code-signing-certificate)
-- [Code signing certificates (DigiCert)](https://www.digicert.com/signing/code-signing-certificates#code_signing_key_locker)
+- [What is a code signing certificate? (Global Sign)](https://www.globalsign.com/en/code-signing-certificate/what-is-code-signing-certificate)
+- [Code signing certificates (Digi Cert)](https://www.digicert.com/signing/code-signing-certificates#code_signing_key_locker)
 - [Partner Center dashboard](https://partner.microsoft.com/en-us/dashboard/home)
 
 ![](https://i.ibb.co/B56kMjnS/image-png.png)
@@ -56,12 +56,12 @@ In Partner Center, reserve the name you want to use for your app.
 
 If you publish `.exe` or `.msi` Installers outside the Store signing flow, you need your own code-signing certificate:
 
-- [Code signing certificates (DigiCert)](https://www.digicert.com/signing/code-signing-certificates#code_signing_key_locker)
+- [Code signing certificates (Digi Cert)](https://www.digicert.com/signing/code-signing-certificates#code_signing_key_locker)
 - [What is a code signing certificate? (GlobalSign)](https://www.globalsign.com/en/code-signing-certificate/what-is-code-signing-certificate)
 
 ## 5. Use Microsoft Store signing with MSIX
 
-Microsoft can sign your package when you submit it to the Store, but your package must be in `.msix` or `.appx` format.
+Microsoft can sign your package when you submit it to the Store, but your package must be in `.msix` or `.appx` Format.
 
 ![](https://i.ibb.co/9mJF99yq/image-png.png)
 
