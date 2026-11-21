@@ -1,6 +1,9 @@
 ---
 title: My adventures with linux so far.
-description: 'Will cover the distros I’ve tested, the tools that made sense to me,'
+description: >-
+  A personal account of my Linux journey so far exploring different
+  distributions, finding useful tools, and sharing what I’ve learned along the
+  way.
 date: '2024-12-16T14:55:00Z'
 draft: false
 weight: 0
@@ -16,6 +19,7 @@ tags:
   - containers
 isCJKLanguage: false
 headless: false
+slug: 16december2024
 ---
 ### Beginning story
 
@@ -101,9 +105,9 @@ ostree based distros like kinoite and bazzite are my new preference. Have starte
 
 ### [**Toolbox Containers**](https://containertoolbx.org/)
 
-Toolbox containers are a special type of container in which the user's  `$HOME` directory is shared between the container and the host. This is particularly advantageous when testing new or untrusted applications in an isolated environment. In fact, even trusted applications that don't necessarily need access to the host's `/usr/bin` can be installed and run inside Toolbox.
+Toolbox containers are a special type of container in which the user's   `$HOME` directory is shared between the container and the host. This is particularly advantageous when testing new or untrusted applications in an isolated environment. In fact, even trusted applications that don't necessarily need access to the host's `/usr/bin` can be installed and run inside Toolbox.
 
-Toolbox containers also share the host's sockets like, SSH agent and the host's authentication mechanisms. Since the  `$HOME` directory is shared, user configurations, themes, and other personal customization are seamlessly integrated, providing a consistent experience across the host and container.
+Toolbox containers also share the host's sockets like, SSH agent and the host's authentication mechanisms. Since the   `$HOME` directory is shared, user configurations, themes, and other personal customization are seamlessly integrated, providing a consistent experience across the host and container.
 
 I've often seen people recommend using Flatpak for GUI applications and Toolbox for command-line tools. However, Toolbox containers are perfectly capable of running GUI applications too. I've been installing and running GUI apps directly inside Toolbox for quite some time, and honestly, I've never noticed any significant difference in the overall experience. Even I have installed all my web browsers inside toolbox containers.
 
