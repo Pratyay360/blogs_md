@@ -20,9 +20,8 @@ opinions, and experience i gathered over the years.
 
 From the very early age computers, electronics and internet excited me a lot.
 
-Btw I am a Linux user for the past 5 6 years, so I can claim that I have learned
-a little bit about UNIX and Linux, and I think I am self entitled to share some
-of my experiences here Btw, now days i boot an atomic/immutable bootc based distro
+Btw I am a Linux user for the past 5 6 years, so I can claim that I have learned  
+A little bit about UNIX and Linux, and I think I am self entitled to share some of my experiences here Btw, now days I boot an atomic/immutable Bootc based distro  
 (which is heavily customized by me)
 
 Most of the stuff I do is just to explore. Not afraid of trying anything new or
