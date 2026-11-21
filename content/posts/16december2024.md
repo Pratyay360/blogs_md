@@ -31,27 +31,37 @@ I installed Ubuntu WSL on my Windows machine and started learning basic Unix com
 
 ![Windows Subsystem for Linux - Wikipedia](https://upload.wikimedia.org/wikipedia/commons/2/27/Ubuntu_on_Windows_10_-_bash.png)
 
-(This is a visual representation of Wsl Obv copied from internet not mine as i don’t use windows any more)
+(This is a visual representation of Wsl Obviously copied from internet not mine as I don’t use windows any more)
 
-### Installing Linux along side Windows
+### Installing Linux alongside Windows
 
-So, after trying linux for 1-1.5 months on my computer(wsl) and thanks to low ram my experience with Virtualbox was not that good I had decided to install linux along side windows (dual boot). I was noob at that time at doing stuffs, installing a simple operating system was a trouble some job for me I deleted one partition from windows and installed ubuntu in that space it was not installed in the ssd even so I used to manually switch os from the bios. Even being installed on the hdd the ubuntu version was faster compared to the windows 10, I started small tinkering and exploring linux at that time that I was spending like 2/3rd of my time on linux and was booting on windows just to play some games. Once I was fully convinced about my linux skills I installed ubuntu permanently on the ssd part and also formatted my hdd drive from NTFS to ext4. Now I was officially a Linux user.
+After spending about one to one‑and‑a‑half months experimenting with Linux via WSL, I discovered that VirtualBox performed poorly because of my limited RAM. I decided to set up a dual‑boot system with Linux and Windows. As a beginner, installing even a simple operating system was a challenge. I deleted a Windows partition and installed Ubuntu in that space, which was on my HDD rather than the SSD, so I had to switch operating systems manually through the BIOS. Despite running from the HDD, Ubuntu felt noticeably faster than Windows 10. I began tinkering with Linux, eventually spending roughly two‑thirds of my computer time in Ubuntu and using Windows only for gaming. Confident in my Linux skills, I later moved Ubuntu permanently to the SSD and reformatted the HDD from NTFS to ext4. From that point on, I considered myself a true Linux user.
 
 ![Ubuntu Desktop](https://res.cloudinary.com/canonical/image/fetch/f_auto,q_auto,fl_sanitize,c_fill,w_3840,h_2160/https://ubuntu.com/wp-content/uploads/d944/yaru-screenshot-large.jpg)
 
-(Representation of ubuntu desktop)
+(Representation of Ubuntu desktop)
 
 ### Distro Hopping
 
-After installing linux permanently on my desktop there was no looking back terminal was great, I have found suitable Foss or web based alternatives to whatever I used to do. Installing/ uninstalling apps was easier than ever and after installing linux I started following multiple foss advocates and linux channels on youtube. Ricing desktop changing themes customizing is what i used to do all day . But sadly there isn’t enough option for customization on Gnome. Also I started learning about multiple distros like elementry os, manjaro, endeavour os, fedora etc etc. Some I used to love some don’t and some actually haven’t worked properly with my computer may be due to some driver compatibility or I may have broken them. The Distro I used to love the most as a beginner was PopOS it was similar to Ubuntu and it’s cosmic desktop used to be good by default. After distro hopping multiple times i realised it’s window manager and desktop environment what changes looks not the distro itself. Using PopOs for about 4 5 months I had shifted to Manjaro Kde, it was my 1st time using kde plasma and some arch derivative with kde plasma there is unlimited possibilities of customization and it’s the best desktop environment for normal users like me. Resource consumption was far lesser than gnome also loved the krunner thing which is very similar to the spotlight. I remember showing my desktop to my friends which I have modified watching Linux Experiment youtube channel, it was dope. Thanks to manjaro I got introduced to AUR(Arch user repository) It is a repository which holds shell scripts so that any one can install a app with minimum effort natively without any sandbox like flatpak or snap.
+After installing Linux permanently on my desktop there was no looking back terminal was great, I have found suitable Foss or web based alternatives to whatever I used to do. Installing/ uninstalling apps was easier than ever and after installing linux I started following multiple foss advocates and linux channels on YouTube. Ricing desktop changing themes customizing is what i used to do all day . But sadly there isn’t enough option for customization on Gnome. 
+
+I began exploring various Linux distributions—Elementary OS, Manjaro, Endeavour OS, Fedora, and others. Some I loved, some didn’t suit my hardware due to driver issues, and a few I may have unintentionally broken. As a beginner, Pop!\\ OS was my favorite; its Ubuntu base and the polished Cosmic desktop made a great first impression.
+
+After hopping between distros, I realized that the window manager and desktop environment, rather than the distribution itself, drive the user experience. After about four to five months with Pop!\\ OS, I switched to Manjaro KDE. It was my first encounter with KDE Plasma, and I was instantly impressed by its limitless customization options. Compared with GNOME, KDE consumes far fewer resources, and I quickly grew to love KRunner—an intuitive launcher reminiscent of macOS’s Spotlight.
+
+I proudly showed my customized desktop to friends, following tweaks inspired by the “Linux Experiment” YouTube channel. Thanks to Manjaro, I was also introduced to the Arch User Repository (AUR), a collection of build scripts that let anyone install applications natively with minimal effort—without relying on sandboxed solutions like Flatpak or Snap.
 
 ### Ditching Manjaro
 
-I personally felt some apps broke and my os broke. It was due to manjaro holds arch packages itself for testing purposes it broke apps installed through aur. Then after ditching manjaro I tried Garuda linux kde plasma edition it looked good tailored animations were great but it was resource intensive and my pc was having problems with it. So I ditched Garuda after trying for 2 3 days and installed Endeavour Os, Endeavour Os community on telegram specifically very helpful and they are very active I have communicated them with problems many times and they have solved things for me multiple time. Generally linux community is considered rude etc. After Using Endeavour os my distro hopping journey surprisingly stopped for years I have used it for continuous 2-3 years and I settled down.
+I initially experienced broken applications and even a compromised OS because Manjaro holds Arch packages for testing, which interfered with AUR-installed software. After leaving Manjaro, I tried Garuda Linux’s KDE Plasma edition. While the visual polish and tailored animations were impressive, the distribution proved too resource‑intensive for my hardware, leading to performance issues. Consequently, I switched to EndeavourOS. The EndeavourOS community on Telegram has been exceptionally helpful and active; they have resolved numerous problems I raised, often multiple times.
 
-### Exploring Cyber Security
+Although the Linux community is sometimes perceived as unfriendly, my experience with EndeavourOS has been the opposite. After adopting it, my distro‑hopping days came to an end. I have now been using EndeavourOS continuously for two to three years and have finally found a stable, satisfying environment.
 
-Have watched multiple movies, web series during lock down and I got very much motivated by Robot web series to explore cyber security. I have watched videos of hackersploit on youtube and explored my cyber security journey but most of the videos were based on concepts direct practical videos were not that much available on youtube so I tried udemy and telegram to get some videos on the topic I used my desktop to install Kali Linux and parrot Os on virtual box have also tried wifi password cracking, exploiting some old versions of wordpress etc.
+### Exploring CyberSecurity
+
+I spent the lockdown watching numerous movies and web series, and the show *Robot* Sparked my interest in cybersecurity. After viewing HackerSploit’s YouTube videos, I began exploring the field, but most of the content focused on theory rather than hands‑on practice. To fill that gap, I turned to Udemy and Telegram for more practical tutorials.
+
+I set up Kali Linux and Parrot OS on my desktop using VirtualBox and started experimenting with real‑world scenarios, such as Wi‑Fi password cracking and exploiting outdated WordPress installations. This hands‑on experience has deepened my understanding and fueled my enthusiasm for a career in cybersecurity.
 
 ![Kali Linux | Penetration Testing and Ethical Hacking Linux](https://www.kali.org/images/kali-desktop-gnome.jpg)
 
@@ -59,9 +69,9 @@ Have watched multiple movies, web series during lock down and I got very much mo
 
 ### Current Os
 
-Have purchased a powerful hp laptop with good processor and I had installed Endeavour os on it. The laptop was working well but after kernel v 5.8 Bluetooth audio used to stutter a lot and wifi 5 ghz was not stable on my laptop may be due to some driver related issue so I switched my distro once again to the distro which creator of linux Linux Torvalds himself uses Fedora. After years of using Arch based distros i realized that they were not that stable for using them on the primary machine.
+I recently purchased a high‑performance HP laptop with a powerful processor and initially installed EndeavourOS. The system performed well until I upgraded to kernel 5.8, after which Bluetooth audio began to stutter and the 5 GHz Wi‑Fi connection became unreliable—likely due to driver issues. Consequently, I switched to the distribution favored by Linus Torvalds himself: Fedora.
 
-I personally boot Kde plasma flavor of fedora linux it's been 6 months and it's running fine for me rolling release and stable flatpack updated on top of it are good. Now, I don't distro hop any more I have found my sweet spot.
+After years of using Arch‑based distributions, I realized they were not sufficiently stable for my primary workstation. I now run the KDE Plasma spin of Fedora, and after six months the experience has been excellent. The rolling‑release model, combined with reliable Flatpak updates, meets all my needs. I have stopped hopping between distributions and finally found my sweet spot.
 
 ![fastfetch](https://cdn.hashnode.com/res/hashnode/image/upload/v1734346269192/a55b5cc6-2c0c-4204-9b61-463f54161f71.png)
 
@@ -79,7 +89,7 @@ This freedom extends to how you use your hardware as well. Linux runs smoothly e
 
 #### **Customization**
 
-The **customization** capabilities of Linux are what initially drew me in, and they are what kept me hooked.
+The **customization** Capabilities of Linux are what initially drew me in, and they are what kept me hooked.
 With Linux, you’re not stuck with a standard, unchangeable interface. Instead, you can:
 
 - Switch between desktop environments like GNOME, KDE Plasma, or XFCE, depending on your preferences.
@@ -101,25 +111,25 @@ it was asking for help on forums, following FOSS advocates on YouTube, or contri
 
 ### Ostree
 
-ostree based distros like kinoite and bazzite are my new preference. Have started with Ublue's aurora and have loved immutable distributions. So installed kinoite on my laptop and have been using it for past 6 7 months. and it feels so complete as a distro and the way it handles updates and rollbacks is just amazing. I have rebased from kinoite base to my own [recepie](https://github.com/Pratyay360/blueee-os). Images are available at [quay.io](https://quay.io/organization/pratyay360)
+Ostree based distros like kinoite and bazzite are my new preference. Have started with Ublue's aurora and have loved immutable distributions. So installed kinoite on my laptop and have been using it for past 6 7 months. And it feels so complete as a distro and the way it handles updates and rollbacks is just amazing. I have rebased from kinoite base to my own [recipe](https://github.com/Pratyay360/blueee-os). Images are available at [quay.io](https://quay.io/organization/pratyay360)
 
 ### [**Toolbox Containers**](https://containertoolbx.org/)
 
-Toolbox containers are a special type of container in which the user's   `$HOME` directory is shared between the container and the host. This is particularly advantageous when testing new or untrusted applications in an isolated environment. In fact, even trusted applications that don't necessarily need access to the host's `/usr/bin` can be installed and run inside Toolbox.
+Toolbox containers are a special type of container in which the user's   `$HOME` Directory is shared between the container and the host. This is particularly advantageous when testing new or untrusted applications in an isolated environment. In fact, even trusted applications that don't necessarily need access to the host's `/usr/bin` can be installed and run inside Toolbox.
 
-Toolbox containers also share the host's sockets like, SSH agent and the host's authentication mechanisms. Since the   `$HOME` directory is shared, user configurations, themes, and other personal customization are seamlessly integrated, providing a consistent experience across the host and container.
+Toolbox containers also share the host's sockets like, SSH agent and the host's authentication mechanisms. Since the   `$HOME` Directory is shared, user configurations, themes, and other personal customization are seamlessly integrated, providing a consistent experience across the host and container.
 
-I've often seen people recommend using Flatpak for GUI applications and Toolbox for command-line tools. However, Toolbox containers are perfectly capable of running GUI applications too. I've been installing and running GUI apps directly inside Toolbox for quite some time, and honestly, I've never noticed any significant difference in the overall experience. Even I have installed all my web browsers inside toolbox containers.
+I've often seen people recommend using Flatpak for GUI applications and Toolbox for command-line tools. However, Toolbox containers are perfectly capable of running GUI applications too. I've been installing and running GUI apps directly inside Toolbox for quiet some time, and honestly, I've never noticed any significant difference in the overall experience. Even I have installed all my web browsers inside toolbox containers.
 
-Unlike flatpak where users are limited to specific number of [freedesktop](https://gitlab.com/freedesktop-sdk/freedesktop-sdk/-/wikis/Freedesktop-SDK-Flatpak-repository) run times, Users can use any in the case of toolbox, also the command `flatpak-spawn` available inside toolbox containers though it’s just a shell script, [I have even built a cli tool to accompany me while using toolbox containers.](https://github.com/Pratyay360/toolbox-export) 
+Unlike Flatpak where users are limited to specific number of [free desktop](https://gitlab.com/freedesktop-sdk/freedesktop-sdk/-/wikis/Freedesktop-SDK-Flatpak-repository) Run times, Users can use any in the case of toolbox, also the command `flatpak-spawn` Available inside toolbox containers though it’s just a shell script, [I have even built a cli tool to accompany me while using toolbox containers.](https://github.com/Pratyay360/toolbox-export) 
 
 #### **Conclusion**
 
 Switching to Linux taught me more than just technical skills it gave me a new perspective  
 on **freedom, creativity, and community**. The ability to customize my system,  
-use free and open-source software, and break away from proprietary restrictions  
-made my journey rewarding. Linux isn't just an operating system; it's a way to  
-embrace technology with curiosity and empowerment.
+Use free and open-source software, and break away from proprietary restrictions  
+Made my journey rewarding. Linux isn't just an operating system; it's a way to  
+Embrace technology with curiosity and empowerment.
 
 ### Continuation
 
