@@ -42,7 +42,7 @@ These pages explain code signing and certificate options:
 - [Code signing certificates from (DigiCert)](https://www.digicert.com/signing/code-signing-certificates#code_signing_key_locker)
 - [Partner Center dashboard](https://partner.microsoft.com/en-us/dashboard/home)
 
-![](https://i.ibb.co/B56kMjnS/image-png.png "partner center")
+![](https://i.ibb.co/B56kMjnS/image-png.png)
 
 ![](https://i.ibb.co/BKjPvY7Y/image-png.png)
 
