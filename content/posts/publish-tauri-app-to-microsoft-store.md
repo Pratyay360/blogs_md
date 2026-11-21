@@ -20,9 +20,9 @@ isCJKLanguage: false
 headless: false
 slug: publish-tauri-app-to-microsoft-store
 ---
-I recently built Drawx, a desktop app built using Tauriv2 and Vite + React. Tauriv2 is rust based framework for building cross-platform desktop applications. Many Tauri projects already have CI set up (for example, through CrabNebula Cloud), but publishing to the Microsoft Store is a different process.
+I recently built Drawx, a desktop app built using Tauriv2 and Vite + React. Tauriv2 is rust based framework for building cross-platform applications. Many Tauri projects already have CI set up (for example, through CrabNebula Cloud), but publishing to the Microsoft Store is a different process.
 
-This guide walks through the steps to publish a Tauriv2 app to the Microsoft Store.
+This guide walks through the steps to publish a Tauri app to the Microsoft Store.
 
 Start with Microsoft Partner Center: [https://partner.microsoft.com/en-US/](https://partner.microsoft.com/en-US/)
 
@@ -52,15 +52,23 @@ These pages explain code signing and certificate options:
 
 In Partner Center, reserve the name you want to use for your app.
 
+![](https://i.ibb.co/s9LGJBLd/image-png.png "create new app")
+
+![](https://i.ibb.co/pjw8ghpz/image-png.png "reserve app name")
+
 ### 4. Get a code signing certificate for releasing `.exe` or `.msi` 
 
-If you publish `.exe` or `.msi` Installers outside the Store signing flow, you need your own code signing certificate which can be obtained from. [DigiCert](https://www.digicert.com/signing/code-signing-certificates#code_signing_key_locker) [or Global Sign](https://www.globalsign.com/en/code-signing-certificate/what-is-code-signing-certificate)
+If you publish `.exe` or `.msi` Installers in the Store. Getting a code signing is necessary you need a code signing certificate which can be obtained from online providers, [DigiCert](https://www.digicert.com/signing/code-signing-certificates#code_signing_key_locker) [or GlobalSign.](https://www.globalsign.com/en/code-signing-certificate/what-is-code-signing-certificate) 
 
 ## 5. Use Microsoft Store signing with MSIX
 
-Microsoft can sign your package when you submit it to the Store, but your package must be in `.msix` or `.appx` Format.
+Microsoft can sign your package when you submit it to the Store, but your package must be in `.msix` or `.appx` Format this is the only way to publish an app for free.
 
 ![](https://i.ibb.co/9mJF99yq/image-png.png)
+
+My App store listing
+
+[![](https://i.ibb.co/5xvbQQ4C/image-png.png "Drawx draw")](https://apps.microsoft.com/store/detail/9MT3RCXNDBT4?cid=DevShareMCLPCS)
 
 ## 6. Example GitHub Actions workflow (MSI to MSIX)
 
