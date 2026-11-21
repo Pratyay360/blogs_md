@@ -54,10 +54,7 @@ In Partner Center, reserve the name you want to use for your app.
 
 ### 4. Get a code signing certificate for releasing `.exe` or `.msi` 
 
-If you publish `.exe` or `.msi` Installers outside the Store signing flow, you need your own code-signing certificate:
-
-- [Code signing certificates (Digi Cert)](https://www.digicert.com/signing/code-signing-certificates#code_signing_key_locker)
-- [What is a code signing certificate? (Global Sign)](https://www.globalsign.com/en/code-signing-certificate/what-is-code-signing-certificate)
+If you publish `.exe` or `.msi` Installers outside the Store signing flow, you need your own code signing certificate which can be obtained from. [DigiCert](https://www.digicert.com/signing/code-signing-certificates#code_signing_key_locker) [or Global Sign](https://www.globalsign.com/en/code-signing-certificate/what-is-code-signing-certificate)
 
 ## 5. Use Microsoft Store signing with MSIX
 
