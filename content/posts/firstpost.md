@@ -16,7 +16,7 @@ slug: firstpost
 This is my small corner in the internet will be sharing ideas and thoughts
 maybe no one will be reading this but who cares. If only me and google spider
 reads this that’s perfectly fine. I will be writing stuff here sharing my views,
-opinions, and experience i gathered over the years.
+opinions, and experience I gathered over the years.
 
 From the very early age computers, electronics and internet excited me a lot.
 
@@ -28,7 +28,7 @@ Most of the stuff I do is just to explore. Not afraid of trying anything new or
 unknown I am still equally open and curious about learning new things.
 
 By the way, I had a childhood dream of becoming a lawyer because I tend to defend
-any side in any debate ~~though that usually stays within my social bubble.~~ However, with age I have
+any side in any debate ~~Though that usually stays within my social bubble.~~ However, with age I have
 realized that I am too introverted for that profession.
 
 I have got some hot takes too, but won’t be sharing everything in one post.
