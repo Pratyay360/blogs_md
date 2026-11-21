@@ -1,6 +1,8 @@
 ---
-title: Release your desktop app built with tauriv2 on microsoft store.
-description: publish tauri v2 app on microsoft store for distribution.
+title: Release your tauri app on microsoft store.
+description: >-
+  Learn how to distribute a Tauri v2 app through the Microsoft Store and
+  submitting your app in Partner Center.
 date: '2026-11-09T18:45:16Z'
 draft: false
 tags:
@@ -10,6 +12,10 @@ tags:
   - lightcms
   - msix
   - drawx
+  - tauri
+  - opensource
+  - partner
+  - center
 isCJKLanguage: false
 headless: false
 slug: publish-tauri-app-to-microsoft-store
