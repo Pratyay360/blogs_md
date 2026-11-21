@@ -60,7 +60,7 @@ In Partner Center, reserve the name you want to use for your app.
 
 If you publish `.exe` or `.msi` Installers in the Store. Getting a code signing is necessary you need a code signing certificate which can be obtained from online providers, [DigiCert](https://www.digicert.com/signing/code-signing-certificates#code_signing_key_locker) [or GlobalSign.](https://www.globalsign.com/en/code-signing-certificate/what-is-code-signing-certificate) 
 
-## 5. Use Microsoft Store signing with MSIX
+### 5. Use Microsoft Store signing with MSIX
 
 Microsoft can sign your package when you submit it to the Store, but your package must be in `.msix` or `.appx` Format this is the only way to publish an app for free.
 
