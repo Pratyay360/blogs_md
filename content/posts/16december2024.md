@@ -53,7 +53,7 @@ I proudly showed my customized desktop to friends, following tweaks inspired by 
 
 ### Ditching Manjaro
 
-I initially experienced broken applications and even a compromised OS because Manjaro holds Arch packages for testing, which interfered with AUR-installed software. After leaving Manjaro, I tried Garuda Linux’s KDE Plasma edition. While the visual polish and tailored animations were impressive, the distribution proved too resource‑intensive for my hardware, leading to performance issues. Consequently, I switched to EndeavourOS. The EndeavourOS community on Telegram has been exceptionally helpful and active; they have resolved numerous problems I raised, often multiple times.
+I initially experienced broken applications and even a compromised OS because Manjaro holds Arch packages for testing, which interfered with AUR-installed software. After leaving Manjaro, I tried Garuda Linux’s KDE Plasma edition. While the visual polish and tailored animations were impressive, the distribution proved to resource intensive for my hardware, leading to performance issues. Consequently, I switched to EndeavourOS. The EndeavourOS community on Telegram has been exceptionally helpful and active; they have resolved numerous problems I raised, often multiple times.
 
 Although the Linux community is sometimes perceived as unfriendly, my experience with EndeavourOS has been the opposite. After adopting it, my distro‑hopping days came to an end. I have now been using EndeavourOS continuously for two to three years and have finally found a stable, satisfying environment.
 
