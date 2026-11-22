@@ -20,23 +20,30 @@ slug: 13december2022
 ---
 ### Step by Step Guide to Setting Up a Free Self Hosted VPN Using GitHub Education Pack
 
-#### Set up a Privacy-Friendly Free VPN We Need to Have a VPS Hosted on a Server or If You Have a Home Server You Can Forward the Ports You Get While Setting up OpenVPN in It but as Most Isp(Internet Service Providers) Uses CGNAT(Carrier-Grade NAT) It's Hard to Get a Dedicated Public IP Address for You from the Isp They May Charge You Extra Money for Dedicated Public IP Too. So We Can Use a VPS Which Is Easy to Use and If You Take a VPS in a Foreign Nation You Can Bypass Censorship in Your Nation Too Which Is Something Extra than Self-Hosting in a Home Server.
+#### Setting Up a Privacy‑Friendly Free VPN
 
-With the GitHub education pack you are getting a trial version of [AWS](http://aws.amazon.com), [azure](http://azure.microsoft.com), and [digital ocean](https://m.do.co/c/fc5d82bc2f25) you must have to have a credit card or an international debit card to verify your payment method. here I am going to use the [digital ocean](https://m.do.co/c/fc5d82bc2f25) in this tutorial you can use your preferred VPS providers.
+To create privacy focused VPN you need a server with a public IP address. You have two practical options:
 
-steps of setting up a digital ocean for your privacy and an extra layer of security I suggest you set up a VPS with an ssh key directly don't set it up with a password as hackers can take over your VPS by brute-forcing it.
+1. **Use a VPS** – A virtual private server comes with a dedicated public IP by default, making configuration straightforward and hassle‑free.
+2. **Self‑host on a home server** – If you prefer to run OpenVPN on your own hardware, you must forward the necessary ports. However, most ISPs use Carrier‑Grade NAT (CGNAT), which makes obtaining a public IP difficult, and some providers charge extra for a dedicated address.
+
+Choosing a VPS especially one located in another country—simplifies the setup and lets you bypass national censorship, an advantage that self‑hosting on a typical home network cannot provide.
+
+With the GitHub education pack you are getting a trial version of [AWS](http://aws.amazon.com), [azure](http://azure.microsoft.com), and [digital ocean](https://m.do.co/c/fc5d82bc2f25) You must have to have a credit card or an international debit card to verify your payment method. Here I am going to use the [digital ocean](https://m.do.co/c/fc5d82bc2f25) in this tutorial you can use your preferred VPS providers.
+
+To improve privacy and add an extra layer of security on DigitalOcean, configure your VPS to use SSH‑key authentication instead of password authentication. Passwords are vulnerable to brute‑force attacks, whereas SSH keys provide a more secure, reliable method of access.
 
 ```bash
 ssh-keygen -t rsa
 ```
 
-Type this command in your terminal to generate a public/private rsa key pair.
+Type this command in your terminal to generate public/private rsa key pair.
 
 ```bash
 cat .ssh/id_rsa.pub
 ```
 
-Type this command to see your public/private rsa key pair. now copy it and paste it here
+Type this command to see your public/private rsa key pair. Now copy it and paste it here
 
 ![gen ssh keys](https://cdn.hashnode.com/res/hashnode/image/upload/v1670950407505/HJoUqM82s.png)
 
@@ -48,7 +55,7 @@ now go to market place and search here "OPENVPN"
 
 ![openvpn access server](https://cdn.hashnode.com/res/hashnode/image/upload/v1670950588606/VQ-g7vKu_.png)
 
-Click here and select a server configuration for you as we are using it as VPN our traffic is going to be a bit high so we are choosing this with a high bandwidth(2TB)
+Click here and select a server configuration for you as we are using it as VPN our traffic is going to be a bit high so we are choosing this with a high bandwidth(2 terabytes)
 
 ![pricing page](https://cdn.hashnode.com/res/hashnode/image/upload/v1670950729615/NLrmhfMC1.png)
 
@@ -66,23 +73,23 @@ Now you have to wait for some minutes to let your VPS provider here digital ocea
 ssh root@<ipv4 address>
 ```
 
-you will automatically get some prompt there create an OpenVPN user from there and
+You will automatically get some prompt there create an OpenVPN user from there and
 set up a password for it after everything is done go to your browser and search
 
-and log in there and configure your VPN according to you now log out from there
-and open your ipv4 address from there
+And log in there and configure your VPN according to you now log out from there
+and open your IPv4 address from there
 
 ![open vpn login page](https://cdn.hashnode.com/res/hashnode/image/upload/v1670951509209/bNrYeEmTM.png)
 
-now just log in and download your preferred client here everything will be
-pre-configured according to your server
+Now just log in and download your preferred client here everything will be
+preconfigured according to your server
 
 ![download proffered version ](https://cdn.hashnode.com/res/hashnode/image/upload/v1670951658005/ai13LNUU2.png)
 
-Just download your client and enter your password in the app which you have.
-Generated during setup now you are all done if you already have the Open-VPN app
-on your phone or laptop you can simply download the profile file from here
-and import it into the Open-VPN app that's it.
+Just download your client and enter your password in the app which you have.  
+Generated during setup now you are all done if you already have the Open-VPN app  
+On your phone or laptop you can simply download the profile file from here  
+And import it into the Open VPN app that's it.
 
 ![already configured version](https://cdn.hashnode.com/res/hashnode/image/upload/v1670951908765/9EyMfT-k6.png)
 
