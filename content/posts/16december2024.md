@@ -47,7 +47,7 @@ After installing Linux permanently on my desktop there was no looking back termi
 
 I began exploring various Linux distributions—Elementary OS, Manjaro, Endeavour OS, Fedora, and others. Some I loved, some didn’t suit my hardware due to driver issues, and a few I may have unintentionally broken. As a beginner, Pop!\\ OS was my favorite; its Ubuntu base and the polished Cosmic desktop made a great first impression.
 
-After hopping between distros, I realized that the window manager and desktop environment, rather than the distribution itself, drive the user experience. After about four to five months with Pop!\\ OS, I switched to Manjaro KDE. It was my first encounter with KDE Plasma, and I was instantly impressed by its limitless customization options. Compared with GNOME, KDE consumes far fewer resources, and I quickly grew to love KRunner—an intuitive launcher reminiscent of macOS’s Spotlight.
+After hopping between distros, I realized that the window manager and desktop environment, rather than the distribution itself, drive the user experience. After about four to five months with Pop!\\ OS, I switched to Manjaro KDE. It was my first encounter with KDE Plasma, and I was instantly impressed by its limitless customization options. Compared with GNOME, KDE consumes far fewer resources, and I quickly grew to love KRunner an intuitive launcher reminiscent of macOS’s Spotlight.
 
 I proudly showed my customized desktop to friends, following tweaks inspired by the “Linux Experiment” YouTube channel. Thanks to Manjaro, I was also introduced to the Arch User Repository (AUR), a collection of build scripts that let anyone install applications natively with minimal effort—without relying on sandboxed solutions like Flatpak or Snap.
 
