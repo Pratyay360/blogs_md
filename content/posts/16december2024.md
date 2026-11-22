@@ -43,7 +43,7 @@ After spending about one to one‑and‑a‑half months experimenting with Linux
 
 ### Distro Hopping
 
-After installing Linux permanently on my desktop there was no looking back terminal was great, I have found suitable Foss or web based alternatives to whatever I used to do. Installing/ uninstalling apps was easier than ever and after installing linux I started following multiple foss advocates and linux channels on YouTube. Ricing desktop changing themes customizing is what i used to do all day . But sadly there isn’t enough option for customization on Gnome. 
+After installing Linux permanently on my desktop there was no looking back terminal was great, I have found suitable Foss or web based alternatives to whatever I used to do. Installing/ uninstalling apps was easier than ever and after installing Linux I started following multiple Foss advocates and linux channels on YouTube. Ricing desktop changing themes customizing is what I used to do all day. But sadly there isn’t enough option for customization on Gnome. 
 
 I began exploring various Linux distributions—Elementary OS, Manjaro, Endeavour OS, Fedora, and others. Some I loved, some didn’t suit my hardware due to driver issues, and a few I may have unintentionally broken. As a beginner, Pop!\\ OS was my favorite; its Ubuntu base and the polished Cosmic desktop made a great first impression.
 
