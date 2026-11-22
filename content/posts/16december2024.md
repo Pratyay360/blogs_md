@@ -97,7 +97,7 @@ With Linux, you’re not stuck with a standard, unchangeable interface. Instead,
 - Modify the terminal to look and behave exactly how you want, using themes, plugins, and tools like Zsh or Oh My Zsh.  
 For me, experimenting with different configurations felt like a creative outlet. The ability to design a workspace that was both visually pleasing and incredibly functional was empowering. Unlike closed systems, Linux encouraged me to make my computer an extension of my personality.
 
-#### **Open-Source Philosophy**
+#### **Open Source Philosophy**
 
 At the heart of Linux is its **open-source philosophy**, which fundamentally changed the way I view technology. Open-source software is not just about using free tools. It is about being part of a community where collaboration and transparency take precedence.
 
@@ -111,7 +111,7 @@ it was asking for help on forums, following FOSS advocates on YouTube, or contri
 
 ### Ostree
 
-Ostree based distros like kinoite and bazzite are my new preference. Have started with Ublue's aurora and have loved immutable distributions. So installed kinoite on my laptop and have been using it for past 6 7 months. And it feels so complete as a distro and the way it handles updates and rollbacks is just amazing. I have rebased from kinoite base to my own [recipe](https://github.com/Pratyay360/blueee-os). Images are available at [quay.io](https://quay.io/organization/pratyay360)
+Atomic/immutable distros like kinoite, bazzite are my new preference. Have started with Ublue's aurora and have loved immutable distributions. So installed kinoite on my laptop and have been using it for past 6 7 months. And it feels so complete as a distro and the way it handles updates and rollbacks is just amazing. I have rebased from kinoite base to my own [recipe](https://github.com/Pratyay360/blueee-os). Images are available at [quay.io](https://quay.io/organization/pratyay360)
 
 ### [**Toolbox Containers**](https://containertoolbx.org/)
 
