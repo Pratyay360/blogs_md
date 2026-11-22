@@ -49,7 +49,7 @@ Type this command to see your public/private rsa key pair. Now copy it and paste
 
 ![add ssh keys](https://cdn.hashnode.com/res/hashnode/image/upload/v1670950349767/FYIlaVpZd.png)
 
-now go to market place and search here "OPENVPN"
+Now go to market place and search here "OPENVPN"
 
 ![create droplets](https://cdn.hashnode.com/res/hashnode/image/upload/v1670950531573/cO02aZcP7.png)
 
