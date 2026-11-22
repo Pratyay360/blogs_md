@@ -65,7 +65,7 @@ I set up Kali Linux and Parrot OS on my desktop using VirtualBox and started exp
 
 ![Kali Linux | Penetration Testing and Ethical Hacking Linux](https://www.kali.org/images/kali-desktop-gnome.jpg)
 
-(visual representation of KaliLinux desktop)
+(visual representation of Kali-Linux desktop)
 
 ### Current Os
 
