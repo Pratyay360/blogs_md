@@ -1,5 +1,5 @@
 ---
-title: Release your tauri app on microsoft store.
+title: Release app built with tauri on microsoft store.
 description: >-
   Learn how to distribute a Tauri v2 app through the Microsoft Store and
   submitting your app in Partner Center.
