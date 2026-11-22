@@ -1,11 +1,20 @@
 ---
 title: Using Google Sheets as a Database
-description: How to Use Google Sheets as a Database (hashnode archive)
+description: >-
+  A hands on guide to use Google Sheets as a lightweight database, preserved
+  from the Hashnode.
 date: '2023-12-29T14:55:00Z'
 draft: false
 weight: 0
 isCJKLanguage: false
 headless: false
+slug: december-29-2023
+tags:
+  - google
+  - appscript
+  - opensource
+  - googlesheet
+  - database
 ---
 ### How to Use Google Sheets as a Database: A Complete Guide
 
@@ -14,10 +23,10 @@ headless: false
 Now you can use Google Sheets as a basic database to make your project work and
 prototype your project using google's inbuilt free api `Apps Script`.
 
-Google's spreadsheet can store text, number etc. and you can receive data in
-json format and use in your project in this blog I am going to show you how to
-store collected from customized form. One can follow this code with moderate level
-of coding knowledge in Javascript / React js.
+Google's spreadsheet can store text, number etc. and you can receive data in  
+Json format and use in your project in this blog I am going to show you how to  
+Store collected from customized form. One can follow this code with moderate level  
+Of coding knowledge in JavaScript / React js.
 
 ### 1st step to start the project is to create a spreadsheet in Google Sheet
 
