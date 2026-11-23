@@ -95,7 +95,7 @@ And import it into the Open VPN app that's it.
 
 Here’s how to download only your profile.
 
-Running your own VPN on a VPS gives you greater control over server configuration and data storage than using a third‑party VPN provider. While it doesn’t eliminate every privacy risk—your VPS provider and the network path still matter it can be a valuable setup if you understand the trade offs.
+Running your own VPN on a VPS gives you greater control over server configuration and data storage than using a third‑party VPN provider. While it doesn’t eliminate every privacy risk—your VPS provider and the network path still matter it can be a valuable setup if you understand the tradeoffs.
 
 If you’d like to support this blog, please use my DigitalOcean referral link below.
 
