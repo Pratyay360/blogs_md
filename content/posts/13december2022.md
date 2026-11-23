@@ -14,6 +14,8 @@ tags:
   - vpn
   - proxy
   - openvpn
+  - github
+  - education
 isCJKLanguage: false
 headless: false
 slug: 13december2022
