@@ -28,4 +28,10 @@ you can’t store something large like iso’s as actions artifact where the avg
 
 ![](https://i.ibb.co/Z1vLMRrM/image-png.png)
 
-And 5gb is a very interesting size as it exceeds our aws s3 free tier too.
+And 5gb is a very interesting size as it exceeds our aws s3 free tier too. so using a custom bucket is never an option.
+
+Gofiles storage limits + github actions compute combined come’s at a very sweet spot.
+
+Previously I had written about building custom os with blue build and we will be extending that with [https://blue-build.org/how-to/generate-iso](https://blue-build.org/how-to/generate-iso/) 
+
+there comes a catch
