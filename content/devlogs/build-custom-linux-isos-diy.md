@@ -14,6 +14,7 @@ tags:
   - os
 isCJKLanguage: false
 headless: false
+slug: build-custom-linux-isos-diy
 ---
 ![](https://i.ibb.co/GQDrgfbC/image-png.png)
 
@@ -26,3 +27,5 @@ Github actions are generous when it comes to compute but that’s not the case w
 you can’t store something large like iso’s as actions artifact where the avg iso sizes will be appx 5-6 gb 
 
 ![](https://i.ibb.co/Z1vLMRrM/image-png.png)
+
+And 5gb is a very interesting size as it exceeds our aws s3 free tier too.
