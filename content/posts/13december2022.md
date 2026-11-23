@@ -93,10 +93,10 @@ And import it into the Open VPN app that's it.
 
 ![already configured version](https://cdn.hashnode.com/res/hashnode/image/upload/v1670951908765/9EyMfT-k6.png)
 
-Here is how you are going to download your profile only.
+Here’s how to download only your profile.
 
-Running your own VPN on a VPS gives you more control over the server configuration and the data stored on it than using a third-party VPN provider. It does not remove every privacy risk, since your VPS provider and network path still matter, but it can be a useful setup if you understand the trade-offs.
+Running your own VPN on a VPS gives you greater control over server configuration and data storage than using a third‑party VPN provider. While it doesn’t eliminate every privacy risk—your VPS provider and the network path still matter it can be a valuable setup if you understand the trade‑offs.
 
-If you want to support this blog, you can use my DigitalOcean referral link below.
+If you’d like to support this blog, please use my DigitalOcean referral link below.
 
 ![DigitalOcean Referral Badge](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg)
