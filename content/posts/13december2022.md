@@ -5,7 +5,6 @@ description: >-
   set up a self hosted VPN, including the key tools and configuration steps.
 date: '2022-12-13T00:00:00Z'
 draft: false
-weight: 0
 tags:
   - digital ocean
   - vps
