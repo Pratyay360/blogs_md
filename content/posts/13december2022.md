@@ -20,7 +20,7 @@ slug: 13december2022
 ---
 ### Step by Step Guide to Setting Up a Free Self Hosted VPN Using GitHub Education Pack
 
-#### Setting Up a Privacy‑Friendly Free VPN
+#### Setting Up a privacy friendly Free VPN
 
 To create privacy focused VPN you need a server with a public IP address. You have two practical options:
 
@@ -31,7 +31,7 @@ Choosing a VPS especially one located in another country—simplifies the setup 
 
 With the GitHub education pack you are getting a trial version of [AWS](http://aws.amazon.com), [azure](http://azure.microsoft.com), and [digital ocean](https://m.do.co/c/fc5d82bc2f25) You must have to have a credit card or an international debit card to verify your payment method. Here I am going to use the [digital ocean](https://m.do.co/c/fc5d82bc2f25) in this tutorial you can use your preferred VPS providers.
 
-To improve privacy and add an extra layer of security on DigitalOcean, configure your VPS to use SSH‑key authentication instead of password authentication. Passwords are vulnerable to brute‑force attacks, whereas SSH keys provide a more secure, reliable method of access.
+To improve privacy and add an extra layer of security on DigitalOcean, configure your VPS to use SSH key authentication instead of password authentication. Passwords are vulnerable to brute‑force attacks, whereas SSH keys provide a more secure, reliable method of access.
 
 ```bash
 ssh-keygen -t rsa
@@ -61,13 +61,13 @@ Click here and select a server configuration for you as we are using it as VPN o
 
 ![country choose](https://cdn.hashnode.com/res/hashnode/image/upload/v1670950858960/22xqbPwp6.png)
 
-choose your preferred location from here
+Choose your preferred location from here
 
-Now we are all done and create your customised VPS by clicking here
+Now we are all done and create your customized VPS by clicking here
 
 ![deploy button](https://cdn.hashnode.com/res/hashnode/image/upload/v1670950960541/O7PYfrkup.png)
 
-Now you have to wait for some minutes to let your VPS provider here digital ocean create a VPS for you after everything done, go and log into your VPS with ssh like this
+Now you have to wait for some minutes to let your VPS provider here digital ocean create a VPS for you after everything done, now log into your VPS with ssh like this
 
 ```bash
 ssh root@<ipv4 address>
