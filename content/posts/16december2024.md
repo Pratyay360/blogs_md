@@ -61,7 +61,7 @@ Although the Linux community is sometimes perceived as unfriendly, my experience
 
 I spent the lockdown watching numerous movies and web series, and the [show Robot](https://www.imdb.com/title/tt4158110/) Sparked my interest in cybersecurity. After viewing HackerSploit’s YouTube videos, I began exploring the field, but most of the content focused on theory rather than hands‑on practice. To fill that gap, I turned to Udemy and Telegram for more practical tutorials.
 
-I set up Kali Linux and Parrot OS on my desktop using VirtualBox and started experimenting with real world scenarios, such as Wi‑Fi password cracking and exploiting outdated WordPress installations. This hands‑on experience has deepened my understanding and fueled my enthusiasm for a career in cybersecurity.
+I set up Kali Linux and Parrot OS on my desktop using VirtualBox and started experimenting with real world scenarios, such as Wi‑Fi password cracking and exploiting outdated WordPress installations. This hands‑on experience has deepened my understanding and fueled my enthusiasm for a career in cybersecurity. 
 
 ![Kali Linux | Penetration Testing and Ethical Hacking Linux](https://www.kali.org/images/kali-desktop-gnome.jpg)
 
@@ -126,7 +126,7 @@ Unlike Flatpak where users are limited to specific number of [free desktop](http
 #### Conclusion
 
 Switching to Linux taught me more than just technical skills it gave me a new perspective  
-on freedom, creativity, and community. The ability to customize my system,  
+On freedom, creativity, and community. The ability to customize my system,  
 Use free and open-source software, and break away from proprietary restrictions  
 Made my journey rewarding. Linux isn't just an operating system; it's a way to  
 Embrace technology with curiosity and empowerment.
