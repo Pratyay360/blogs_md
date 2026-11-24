@@ -20,7 +20,8 @@ isCJKLanguage: false
 headless: false
 slug: publish-tauri-app-to-microsoft-store
 ---
-I recently built Drawx, a desktop app built using [https://v2.tauri.app/](https://v2.tauri.app/) And Vite + React. Tauri is rust based framework for building cross-platform applications. Many Tauri projects already have CI set up (for example, through [https://web.crabnebula.cloud](https://web.crabnebula.cloud/)), but publishing to the Microsoft Store is a different process you can only publish signed app on the app store. 
+
+I recently built Drawx, a desktop app built using [https://v2.tauri.app/](https://v2.tauri.app/) And Vite + React. Tauri is rust based framework for building cross-platform applications. Many Tauri projects already have CI set up (for example, through [https://web.crabnebula.cloud](https://web.crabnebula.cloud/)), but publishing to the Microsoft Store is a different process you can only publish signed app on the app store.
 
 This guide walks through the steps to publish a Tauri app to the Microsoft Store.
 
@@ -30,7 +31,7 @@ Start with Microsoft Partner Center: [https://partner.microsoft.com/en-US/](http
 
 Sign in to your Partner Center account, or create one if you do not have one yet.
 
-[![](https://i.ibb.co/jk5CMTR7/image-png.png)](https://partner.microsoft.com/)
+[![Partner Center](https://i.ibb.co/jk5CMTR7/image-png.png)](https://partner.microsoft.com/)
 
 ## 2. Understand code signing
 
@@ -42,11 +43,11 @@ These pages explain code signing and certificate options:
 - [Code signing certificates from (DigiCert)](https://www.digicert.com/signing/code-signing-certificates#code_signing_key_locker)
 - [Partner Center dashboard](https://partner.microsoft.com/en-us/dashboard/home)
 
-![](https://i.ibb.co/B56kMjnS/image-png.png)
+![Partner Center](https://i.ibb.co/B56kMjnS/image-png.png)
 
-![](https://i.ibb.co/BKjPvY7Y/image-png.png)
+![Partner Center](https://i.ibb.co/BKjPvY7Y/image-png.png)
 
-![](https://i.ibb.co/fdtD9HHj/image-png.png)
+![Partner Center](https://i.ibb.co/fdtD9HHj/image-png.png)
 
 ## 3. Reserve your app name
 
@@ -58,13 +59,13 @@ In Partner Center, reserve the name you want to use for your app.
 
 ### 4. Get a code signing certificate for releasing `.exe` or `.msi`
 
-If you publish `.exe` or `.msi` Installers in the Store. Getting a code signing is necessary you need a code signing certificate which can be obtained from online providers, [DigiCert](https://www.digicert.com/signing/code-signing-certificates#code_signing_key_locker) [or GlobalSign.](https://www.globalsign.com/en/code-signing-certificate/what-is-code-signing-certificate) 
+If you publish `.exe` or `.msi` Installers in the Store. Getting a code signing is necessary you need a code signing certificate which can be obtained from online providers, [DigiCert](https://www.digicert.com/signing/code-signing-certificates#code_signing_key_locker) [or GlobalSign.](https://www.globalsign.com/en/code-signing-certificate/what-is-code-signing-certificate)
 
 ### 5. Use Microsoft Store signing with MSIX
 
 Microsoft can sign your package when you submit it to the Store, but your package must be in `.msix` or `.appx` Format this is the only way to publish an app for free.
 
-![](https://i.ibb.co/9mJF99yq/image-png.png)
+![Microsoft Store](https://i.ibb.co/9mJF99yq/image-png.png)
 
 ## 6. Example GitHub Actions workflow (MSI to MSIX)
 
@@ -747,6 +748,6 @@ finally {
 }
 ```
 
-The app store listing 
+The app store listing
 
 [![Drawx draw](https://i.ibb.co/5xvbQQ4C/image-png.png)](https://apps.microsoft.com/store/detail/9MT3RCXNDBT4?cid=DevShareMCLPCS)

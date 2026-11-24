@@ -16,7 +16,8 @@ tags:
   - googlesheet
   - database
 ---
-### How to Use Google Sheets as a Database: A Complete Guide
+
+## How to Use Google Sheets as a Database: A Complete Guide
 
 ### Introduction :-
 
@@ -179,8 +180,6 @@ As you can see the in the form is inserted into the spread sheet.
 - Easy prototyping
 - Can be used to make customized survey form
 - Cost Effective
-
-
 
 Have used codes of [Anatu Tech](https://www.youtube.com/watch?v=ZA6j2PhXSUg) partly here.
 

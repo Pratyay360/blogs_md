@@ -21,7 +21,8 @@ isCJKLanguage: false
 headless: false
 slug: 16december2024
 ---
-### Beginning story
+
+## Beginning story
 
 During the COVID lockdown, my school was closed and I spent a lot of time watching YouTube on my Windows desktop. One day I came across a video about Linux and riced desktop setups. I liked how minimal and polished they looked, so I decided to try Linux on my own machine.
 
@@ -35,7 +36,7 @@ I installed Ubuntu WSL on my Windows machine and started learning basic Unix com
 
 ### Installing Linux alongside Windows
 
-After spending about one to one‑and‑a‑half months experimenting with Linux via WSL, I discovered that VirtualBox performed poorly because of my limited RAM. I decided to set up a dual‑boot system with Linux and Windows. As a beginner, installing even a simple operating system was a challenge. I deleted a Windows partition and installed Ubuntu in that space, which was on my HDD rather than the SSD, so I had to switch operating systems manually through the BIOS. Despite running from the HDD, Ubuntu felt noticeably faster than Windows 10. I began tinkering with Linux, eventually spending roughly two‑thirds of my computer time in Ubuntu and using Windows only for gaming. Confident in my Linux skills, I later moved Ubuntu permanently to the SSD and reformatted the HDD from NTFS to ext4. From that point on, I considered myself a true Linux user.
+After spending about one to one‑and‑a‑half months experimenting with Linux via WSL, I discovered that VirtualBox performed poorly because of my limited RAM. I decided to set up a dual boot system with Linux and Windows. As a beginner, installing even a simple operating system was a challenge. I deleted a Windows partition and installed Ubuntu in that space, which was on my HDD rather than the SSD, so I had to switch operating systems manually through the BIOS. Despite running from the HDD, Ubuntu felt noticeably faster than Windows 10. I began tinkering with Linux, eventually spending roughly two‑thirds of my computer time in Ubuntu and using Windows only for gaming. Confident in my Linux skills, I later moved Ubuntu permanently to the SSD and reformatted the HDD from NTFS to ext4. From that point on, I considered myself a true Linux user.
 
 ![Ubuntu Desktop](https://res.cloudinary.com/canonical/image/fetch/f_auto,q_auto,fl_sanitize,c_fill,w_3840,h_2160/https://ubuntu.com/wp-content/uploads/d944/yaru-screenshot-large.jpg)
 
@@ -43,25 +44,25 @@ After spending about one to one‑and‑a‑half months experimenting with Linux
 
 ### Distro Hopping
 
-After installing Linux permanently on my desktop there was no looking back terminal was great, I have found suitable Foss or web based alternatives to whatever I used to do. Installing/ uninstalling apps was easier than ever and after installing Linux I started following multiple Foss advocates and linux channels on YouTube. Ricing desktop changing themes customizing is what I used to do all day. But sadly there isn’t enough option for customization on Gnome. 
+After installing Linux permanently on my desktop there was no looking back terminal was great, I have found suitable Foss or web based alternatives to whatever I used to do. Installing/ uninstalling apps was easier than ever and after installing Linux I started following multiple Foss advocates and linux channels on YouTube. Ricing desktop changing themes customizing is what I used to do all day. But sadly there isn’t enough option for customization on Gnome.
 
 I began exploring various Linux distributions—Elementary OS, Manjaro, Endeavour OS, Fedora, and others. Some I loved, some didn’t suit my hardware due to driver issues, and a few I may have unintentionally broken. As a beginner, Pop!\\ OS was my favorite; its Ubuntu base and the polished Cosmic desktop made a great first impression.
 
 After hopping between distros, I realized that the window manager and desktop environment, rather than the distribution itself, drive the user experience. After about four to five months with Pop!\\ OS, I switched to Manjaro KDE. It was my first encounter with KDE Plasma, and I was instantly impressed by its limitless customization options. Compared with GNOME, KDE consumes far fewer resources, and I quickly grew to love KRunner an intuitive launcher reminiscent of macOS’s Spotlight.
 
-I proudly showed my customized desktop to friends, following tweaks inspired by the “Linux Experiment” YouTube channel. Thanks to Manjaro, I was also introduced to the Arch User Repository (AUR), a collection of build scripts that let anyone install applications natively with minimal effort—without relying on sandboxed solutions like Flatpak or Snap.
+I proudly showed my customized desktop to friends, following tweaks inspired by the “Linux Experiment” YouTube channel. Thanks to Manjaro, I was also introduced to the Arch User Repository (AUR), a collection of build scripts that let anyone install applications natively with minimal effort   without relying on sandboxed solutions like Flatpak or Snap.
 
 ### Ditching Manjaro
 
-I initially experienced broken applications and even a compromised OS because Manjaro holds Arch packages for testing, which interfered with AUR-installed software. After leaving Manjaro, I tried Garuda Linux’s KDE Plasma edition. While the visual polish and tailored animations were impressive, the distribution proved to resource intensive for my hardware, leading to performance issues. Consequently, I switched to EndeavourOS. The EndeavourOS community on Telegram has been exceptionally helpful and active; they have resolved numerous problems I raised, often multiple times.
+I initially experienced broken applications and even a compromised OS because Manjaro holds Arch packages for testing, which interfered with AUR installed software. After leaving Manjaro, I tried Garuda Linux’s KDE Plasma edition. While the visual polish and tailored animations were impressive, the distribution proved to resource intensive for my hardware, leading to performance issues. Consequently, I switched to EndeavourOS. The EndeavourOS community on Telegram has been exceptionally helpful and active; they have resolved numerous problems I raised, often multiple times.
 
 Although the Linux community is sometimes perceived as unfriendly, my experience with EndeavourOS has been the opposite. After adopting it, my distro‑hopping days came to an end. I have now been using EndeavourOS continuously for two to three years and have finally found a stable, satisfying environment.
 
 ### Exploring CyberSecurity
 
-I spent the lockdown watching numerous movies and web series, and the show *Robot* Sparked my interest in cybersecurity. After viewing HackerSploit’s YouTube videos, I began exploring the field, but most of the content focused on theory rather than hands‑on practice. To fill that gap, I turned to Udemy and Telegram for more practical tutorials.
+I spent the lockdown watching numerous movies and web series, and the [show Robot](https://www.imdb.com/title/tt4158110/) Sparked my interest in cybersecurity. After viewing HackerSploit’s YouTube videos, I began exploring the field, but most of the content focused on theory rather than hands‑on practice. To fill that gap, I turned to Udemy and Telegram for more practical tutorials.
 
-I set up Kali Linux and Parrot OS on my desktop using VirtualBox and started experimenting with real‑world scenarios, such as Wi‑Fi password cracking and exploiting outdated WordPress installations. This hands‑on experience has deepened my understanding and fueled my enthusiasm for a career in cybersecurity.
+I set up Kali Linux and Parrot OS on my desktop using VirtualBox and started experimenting with real world scenarios, such as Wi‑Fi password cracking and exploiting outdated WordPress installations. This hands‑on experience has deepened my understanding and fueled my enthusiasm for a career in cybersecurity.
 
 ![Kali Linux | Penetration Testing and Ethical Hacking Linux](https://www.kali.org/images/kali-desktop-gnome.jpg)
 
@@ -97,9 +98,9 @@ With Linux, you’re not stuck with a standard, unchangeable interface. Instead,
 - Modify the terminal to look and behave exactly how you want, using themes, plugins, and tools like Zsh or Oh My Zsh.  
 For me, experimenting with different configurations felt like a creative outlet. The ability to design a workspace that was both visually pleasing and incredibly functional was empowering. Unlike closed systems, Linux encouraged me to make my computer an extension of my personality.
 
-#### **Open Source Philosophy**
+#### Open Source Philosophy
 
-At the heart of Linux is its **open-source philosophy**, which fundamentally changed the way I view technology. Open-source software is not just about using free tools. It is about being part of a community where collaboration and transparency take precedence.
+At the heart of Linux is its open-source philosophy, which fundamentally changed the way I view technology. Open-source software is not just about using free tools. It is about being part of a community where collaboration and transparency take precedence.
 
 - With Linux, I realized I wasn't just a passive consumer; I was part of a larger movement that values sharing knowledge and empowering others.
 - I could access the source code of the operating system and understand how it worked.
@@ -121,12 +122,12 @@ Toolbox containers also share the host's sockets like, SSH agent and the host's 
 
 I've often seen people recommend using Flatpak for GUI applications and Toolbox for command-line tools. However, Toolbox containers are perfectly capable of running GUI applications too. I've been installing and running GUI apps directly inside toolbox containers, I have been using Toolbox for some time now, and, honestly, I have not observed any significant difference in the overall experience. In fact, I even install all of my web browsers inside Toolbox containers.
 
-Unlike Flatpak where users are limited to specific number of [free desktop](https://gitlab.com/freedesktop-sdk/freedesktop-sdk/-/wikis/Freedesktop-SDK-Flatpak-repository) Run times, Users can use any in the case of toolbox, also the command `flatpak-spawn` Available inside toolbox containers though it’s just a shell script, [I have even built a cli tool to accompany me while using toolbox containers.](https://github.com/Pratyay360/toolbox-export) 
+Unlike Flatpak where users are limited to specific number of [free desktop](https://gitlab.com/freedesktop-sdk/freedesktop-sdk/-/wikis/Freedesktop-SDK-Flatpak-repository) Run times, Users can use any in the case of toolbox, also the command `flatpak-spawn` Available inside toolbox containers though it’s just a shell script, [I have even built a cli tool to accompany me while using toolbox containers.](https://github.com/Pratyay360/toolbox-export)
 
-#### **Conclusion**
+#### Conclusion
 
 Switching to Linux taught me more than just technical skills it gave me a new perspective  
-on **freedom, creativity, and community**. The ability to customize my system,  
+on freedom, creativity, and community. The ability to customize my system,  
 Use free and open-source software, and break away from proprietary restrictions  
 Made my journey rewarding. Linux isn't just an operating system; it's a way to  
 Embrace technology with curiosity and empowerment.

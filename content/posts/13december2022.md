@@ -19,14 +19,15 @@ isCJKLanguage: false
 headless: false
 slug: 13december2022
 ---
-### Step by Step Guide to Setting Up a Free Self Hosted VPN Using GitHub Education Pack
 
-#### Setting Up a privacy friendly Free VPN
+## Step by Step Guide to Setting Up a Free Self Hosted VPN Using GitHub Education Pack
+
+### Setting Up a privacy friendly Free VPN
 
 To create privacy focused VPN you need a server with a public IP address. You have two practical options:
 
-1. **Use a VPS** – A virtual private server comes with a dedicated public IP by default, making configuration straightforward and hassle‑free.
-2. **Self‑host on a home server** – If you prefer to run OpenVPN on your own hardware, you must forward the necessary ports. However, most ISPs use Carrier‑Grade NAT (CGNAT), which makes obtaining a public IP difficult, and some providers charge extra for a dedicated address.
+1. Use a VPS – A virtual private server comes with a dedicated public IP by default, making configuration straightforward and hassle‑free.
+2. Self‑host on a home server – If you prefer to run OpenVPN on your own hardware, you must forward the necessary ports. However, most ISPs use Carrier‑Grade NAT (CGNAT), which makes obtaining a public IP difficult, and some providers charge extra for a dedicated address.
 
 Choosing a VPS especially one located in another country—simplifies the setup and lets you bypass national censorship, an advantage that self‑hosting on a typical home network cannot provide.
 
@@ -88,7 +89,7 @@ preconfigured according to your server
 ![download proffered version ](https://cdn.hashnode.com/res/hashnode/image/upload/v1670951658005/ai13LNUU2.png)
 
 Just download your client and enter your password in the app which you have.  
-Generated during setup now you are all done if you already have the Open-VPN app  
+Generated during setup now you are all done if you already have the OpenVPN app  
 On your phone or laptop you can simply download the profile file from here  
 And import it into the Open VPN app that's it.
 
@@ -96,7 +97,7 @@ And import it into the Open VPN app that's it.
 
 Here’s how to download only your profile.
 
-Running your own VPN on a VPS gives you greater control over server configuration and data storage than using a third‑party VPN provider. While it doesn’t eliminate every privacy risk—your VPS provider and the network path still matter it can be a valuable setup if you understand the tradeoffs.
+Running your own VPN on a VPS gives you greater control over server configuration and data storage than using a third party VPN provider. While it doesn’t eliminate every privacy risks your VPS provider and the network path still matter it can be a valuable setup if you understand the tradeoffs.
 
 If you’d like to support this blog, please use my DigitalOcean referral link below.
 
