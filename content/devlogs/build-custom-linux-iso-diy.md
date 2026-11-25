@@ -16,7 +16,7 @@ slug: build-custom-linux-iso-diy
 ---
 ## Prerequisites
 
-You should already have a bootc container build CI pipeline based on the [BlueBuild workshop](https://workshop.blue-build.org/). This post starts after that image build works.
+You should already have a bootc container build CI pipeline based on the [BlueBuild workshop](https://workshop.blue-build.org/). This post starts after that image build works. 
 
 GitHub Actions has enough compute to build the image. Artifact storage is the weak point, so this workflow uploads the finished ISO to a separate file host.
 
@@ -54,13 +54,13 @@ The [BlueBuild GitHub Action reference](https://blue-build.org/reference/github-
 >
 > The Sigstore/cosign secret used to sign the image.
 >
-> Example:     `${{ secrets.COSIGN_PRIVATE_KEY }}`
+> Example:      `${{ secrets.COSIGN_PRIVATE_KEY }}`
 >
 > ### `cosign_public_key:` **(optional)**
 >
 > The public key, but passed as env.
 >
-> Example:     `${{ secrets.COSIGN_PUBLIC_KEY }}`
+> Example:      `${{ secrets.COSIGN_PUBLIC_KEY }}`
 >
 > Default: “
 >
@@ -74,7 +74,7 @@ The [BlueBuild GitHub Action reference](https://blue-build.org/reference/github-
 >
 > The token used to sign into the container registry.
 >
-> Example:     `${{ github.token }}`
+> Example:      `${{ github.token }}`
 >
 > Default: “
 >
@@ -82,13 +82,13 @@ The [BlueBuild GitHub Action reference](https://blue-build.org/reference/github-
 >
 > The username used to sign into the container registry.
 >
-> Default:     `${{ github.repository_owner }}`
+> Default:      `${{ github.repository_owner }}`
 >
 > ### `pr_event_number:` **(required)**
 >
 > The event number used to tag images pushed from pull requests.
 >
-> Example:     `${{ github.event.number }}`
+> Example:      `${{ github.event.number }}`
 >
 > ### `maximize_build_space:` **(optional)**
 >
@@ -118,7 +118,7 @@ The [BlueBuild GitHub Action reference](https://blue-build.org/reference/github-
 >
 > Example: `ublue-os`
 >
-> Default:     `${{ github.repository_owner }}`
+> Default:      `${{ github.repository_owner }}`
 >
 > ### `chunkah:` **(optional)**
 >
@@ -221,3 +221,268 @@ and account id as  `GOFILE_ACCOUNT_ID`
 ![accountid](https://i.ibb.co/GvXCKp0K/image-png.png)
 
 ![add secrets](https://i.ibb.co/LXFkPdWY/2026-11-25-01-46-21-p-m-Github-Demo.gif)
+
+```bash
+.
+├── common.sh
+├── extract-image-name.sh
+├── generate-iso.sh
+├── upload.sh
+├── view-upload.sh
+└── write-job-summary.sh
+
+```
+
+list of scripts 
+
+1. `.github/scripts/common.sh`
+
+```bash
+#!/usr/bin/env bash
+# Shared helpers for the ISO workflow scripts. Source this; never run it directly.
+
+set -euo pipefail
+
+log() { printf '%s\n' "$*"; }
+warn() { printf '::warning::%s\n' "$*"; }
+error() { printf '::error::%s\n' "$*" >&2; }
+
+die() {
+  error "$*"
+  exit 1
+}
+
+# require_env NAME [NAME...] - fail with one clear message per missing variable.
+require_env() {
+  local name
+  for name in "$@"; do
+    [[ -n "${!name:-}" ]] || die "Missing required environment variable: $name"
+  done
+}
+
+# github_output "key=value" - write a step output when running in Actions,
+# print it locally otherwise.
+github_output() {
+  if [[ -n "${GITHUB_OUTPUT:-}" ]]; then
+    printf '%s\n' "$1" >> "$GITHUB_OUTPUT"
+  else
+    log "[output] $1"
+  fi
+}
+
+# step_summary "line" - append a line to the job summary when running in
+# Actions, print it locally otherwise.
+step_summary() {
+  if [[ -n "${GITHUB_STEP_SUMMARY:-}" ]]; then
+    printf '%s\n' "$1" >> "$GITHUB_STEP_SUMMARY"
+  else
+    log "$1"
+  fi
+}
+```
+
+2. `.github/scripts/extract-image-name.sh`
+
+```bash
+#!/usr/bin/env bash
+# Derive a short ISO name from a fully qualified image reference.
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+source "$SCRIPT_DIR/common.sh"
+
+require_env IMAGE
+
+BASENAME="${IMAGE##*/}"
+NAME="${BASENAME%:*}"
+
+[[ -n "$NAME" ]] || die "Could not derive a name from IMAGE=$IMAGE"
+
+log "Image: $IMAGE -> name: $NAME"
+github_output "name=$NAME"
+```
+
+3. `.github/scripts/generate-iso.sh`
+
+```bash
+#!/usr/bin/env bash
+# Build an ISO for a published container image and normalize its output path.
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+source "$SCRIPT_DIR/common.sh"
+
+require_env IMAGE NAME
+
+OUTPUT_DIR="${OUTPUT_DIR:-$(pwd)/output}"
+mkdir -p "$OUTPUT_DIR"
+OUTPUT_DIR="$(cd "$OUTPUT_DIR" && pwd)"
+ISO_PATH="$OUTPUT_DIR/${NAME}.iso"
+
+log "Generating ISO: image=$IMAGE name=$NAME output=$OUTPUT_DIR"
+
+for tag in latest v1.4.0; do
+  if ! podman pull "ghcr.io/jasonn3/build-container-installer:${tag}"; then
+    warn "Warm-up pull of ${tag} failed; continuing."
+  fi
+done
+
+if ! bluebuild generate-iso --iso-name "${NAME}.iso" --output-dir "$OUTPUT_DIR" image "$IMAGE"; then
+  warn "bluebuild generate-iso failed; retrying once with VERSION=42 (lorax fallback)."
+  VERSION=42 bluebuild generate-iso --iso-name "${NAME}.iso" --output-dir "$OUTPUT_DIR" image "$IMAGE"
+fi
+
+if [[ ! -f "$ISO_PATH" ]]; then
+  mapfile -t candidates < <(find "$OUTPUT_DIR" -maxdepth 3 -type f -name '*.iso' | sort)
+  if [[ ${#candidates[@]} -gt 0 ]]; then
+    log "Expected $ISO_PATH; promoting ${candidates[0]} instead."
+    cp -v "${candidates[0]}" "$ISO_PATH"
+  fi
+fi
+
+[[ -f "$ISO_PATH" ]] || die "ISO not found at $ISO_PATH"
+
+ls -lh "$ISO_PATH"
+github_output "iso-output-path=$ISO_PATH"
+```
+
+4. `.github/scripts/upload.sh`
+
+```bash
+#!/usr/bin/env bash
+# Upload an ISO to GoFile and emit a download URL plus QR code URL.
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+source "$SCRIPT_DIR/common.sh"
+
+require_env FILE NAME IMAGE
+[[ -f "$FILE" ]] || die "ISO file not found: $FILE"
+
+# Extract a usable download URL from a GoFile API response.
+response_url() {
+  local url
+  url="$(printf '%s' "$1" | jq -r '.data.downloadPage // .data.directLink // empty' 2>/dev/null || true)"
+  if [[ -n "$url" && "$url" != "null" ]]; then
+    printf '%s' "$url"
+  fi
+  return 0
+}
+
+TOKEN="${GOFILE_TOKEN:-${TOKEN:-}}"
+log "Uploading $FILE ($(du -h "$FILE" | cut -f1)) to GoFile..."
+
+RESPONSE=""
+if [[ -n "$TOKEN" ]]; then
+  RESPONSE="$(curl -sS --fail-with-body -X POST -F "file=@$FILE" -F "token=$TOKEN" \
+    https://upload.gofile.io/uploadFile 2>&1)" || RESPONSE=""
+  if [[ -z "$(response_url "$RESPONSE")" ]]; then
+    RESPONSE="$(curl -sS --fail-with-body -X POST -F "file=@$FILE" \
+      -H "Authorization: Bearer $TOKEN" https://upload.gofile.io/uploadFile 2>&1)" || RESPONSE=""
+  fi
+fi
+if [[ -z "$(response_url "$RESPONSE")" ]]; then
+  RESPONSE="$(curl -sS --fail-with-body -X POST -F "file=@$FILE" \
+    https://upload.gofile.io/uploadFile 2>&1)" || RESPONSE=""
+fi
+
+log "GoFile response: $RESPONSE"
+URL="$(response_url "$RESPONSE")"
+[[ -n "$URL" ]] || die "Could not parse a download URL from the GoFile response."
+
+QR_DATA="$(python3 -c 'import sys, urllib.parse; print(urllib.parse.quote(sys.argv[1], safe=""))' "$URL")"
+QRCODE="https://api.qrserver.com/v1/create-qr-code/?size=256x256&data=${QR_DATA}"
+
+github_output "url=$URL"
+github_output "qrcode=$QRCODE"
+log "GoFile URL: $URL"
+log "GoFile QR:  $QRCODE"
+```
+
+
+
+&nbsp;
+
+iso-action.yaml
+
+```yaml
+name: Build ISO and Upload
+
+on:
+  workflow_run:
+    workflows: ["bluebuild"]
+    types:
+      - completed
+  workflow_dispatch:
+
+concurrency:
+  group: iso-build-${{ github.ref || github.run_id }}
+  cancel-in-progress: false
+
+# Pinned tool version: change here to upgrade every ISO build at once.
+env:
+  BLUEBUILD_VERSION: "0.9.42"
+
+jobs:
+  iso:
+    name: Build ISO
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      packages: write
+    strategy:
+      fail-fast: false
+      matrix:
+        images:
+          - quay.io/pratyay360/catchy-kinoite:latest
+          - quay.io/pratyay360/catchy-silverblue:latest
+          - quay.io/pratyay360/catchy-sway:44
+          - quay.io/pratyay360/catchy-cosmic:latest
+          - quay.io/pratyay360/sway:44
+          - quay.io/pratyay360/kinoite:latest
+          - quay.io/pratyay360/silverblue:latest
+          - quay.io/pratyay360/cosmic:latest
+
+    # Every run step is a single script with a fixed contract: required inputs
+    # are passed as env vars, results go to $GITHUB_OUTPUT or the job summary.
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@main
+
+      - name: Install toolchain
+        run: ./.github/scripts/install-toolchain.sh
+
+      - name: Extract image name
+        id: recipe
+        env:
+          IMAGE: ${{ matrix.images }}
+        run: ./.github/scripts/extract-image-name.sh
+
+      - name: Generate ISO from published image
+        id: generate-iso
+        env:
+          IMAGE: ${{ matrix.images }}
+          NAME: ${{ steps.recipe.outputs.name }}
+        run: ./.github/scripts/generate-iso.sh
+
+      - name: Upload ISO to GoFile
+        id: gofile
+        env:
+          FILE: ${{ steps.generate-iso.outputs.iso-output-path }}
+          IMAGE: ${{ matrix.images }}
+          NAME: ${{ steps.recipe.outputs.name }}
+          GOFILE_TOKEN: ${{ secrets.GOFILE_TOKEN }}
+        run: ./.github/scripts/upload.sh
+
+      - name: View URL and QR Code
+        if: always()
+        env:
+          ISO_FILE: ${{ steps.generate-iso.outputs.iso-output-path }}
+          URL: ${{ steps.gofile.outputs.url }}
+          QRCODE: ${{ steps.gofile.outputs.qrcode }}
+        run: ./.github/scripts/view-upload.sh
+
+      - name: Add job step summary
+        env:
+          NAME: ${{ steps.recipe.outputs.name }}
+          IMAGE: ${{ matrix.images }}
+          URL: ${{ steps.gofile.outputs.url }}
+          QRCODE: ${{ steps.gofile.outputs.qrcode }}
+        run: ./.github/scripts/write-job-summary.sh
+```
