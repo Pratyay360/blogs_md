@@ -11,7 +11,6 @@ tags:
   - iso
   - os
   - bootc
-  - iso
 isCJKLanguage: false
 headless: false
 slug: build-custom-linux-iso-diy
