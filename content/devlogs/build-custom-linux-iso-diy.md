@@ -54,13 +54,13 @@ The [BlueBuild GitHub Action reference](https://blue-build.org/reference/github-
 >
 > The Sigstore/cosign secret used to sign the image.
 >
-> Example:  `${{ secrets.COSIGN_PRIVATE_KEY }}`
+> Example:    `${{ secrets.COSIGN_PRIVATE_KEY }}`
 >
 > ### `cosign_public_key:` **(optional)**
 >
 > The public key, but passed as env.
 >
-> Example:  `${{ secrets.COSIGN_PUBLIC_KEY }}`
+> Example:    `${{ secrets.COSIGN_PUBLIC_KEY }}`
 >
 > Default: “
 >
@@ -74,7 +74,7 @@ The [BlueBuild GitHub Action reference](https://blue-build.org/reference/github-
 >
 > The token used to sign into the container registry.
 >
-> Example:  `${{ github.token }}`
+> Example:    `${{ github.token }}`
 >
 > Default: “
 >
@@ -82,13 +82,13 @@ The [BlueBuild GitHub Action reference](https://blue-build.org/reference/github-
 >
 > The username used to sign into the container registry.
 >
-> Default:  `${{ github.repository_owner }}`
+> Default:    `${{ github.repository_owner }}`
 >
 > ### `pr_event_number:` **(required)**
 >
 > The event number used to tag images pushed from pull requests.
 >
-> Example:  `${{ github.event.number }}`
+> Example:    `${{ github.event.number }}`
 >
 > ### `maximize_build_space:` **(optional)**
 >
@@ -118,7 +118,7 @@ The [BlueBuild GitHub Action reference](https://blue-build.org/reference/github-
 >
 > Example: `ublue-os`
 >
-> Default:  `${{ github.repository_owner }}`
+> Default:    `${{ github.repository_owner }}`
 >
 > ### `chunkah:` **(optional)**
 >
@@ -210,7 +210,7 @@ The [BlueBuild GitHub Action reference](https://blue-build.org/reference/github-
 
 create an account on [gofile.io](https://gofile.io/)   And store the API KEY securely as `GOFILE_TOKEN`
 
-![](https://i.ibb.co/yc0SwnVd/image-png.png)
+![apikey](https://i.ibb.co/yc0SwnVd/image-png.png)
 
 Store the api key in repository secret 
 
@@ -218,4 +218,6 @@ Store the api key in repository secret
 
 and account id as  `GOFILE_ACCOUNT_ID`  
 
-![](https://i.ibb.co/GvXCKp0K/image-png.png)
+![accountid](https://i.ibb.co/GvXCKp0K/image-png.png)
+
+![add secrets](https://i.ibb.co/LXFkPdWY/2026-11-25-01-46-21-p-m-Github-Demo.gif)
