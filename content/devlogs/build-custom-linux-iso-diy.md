@@ -399,7 +399,7 @@ log "GoFile QR:  $QRCODE"
 
 &nbsp;
 
-iso-action.yaml
+`iso-action.yaml`
 
 ```yaml
 name: Build ISO and Upload
